@@ -6,10 +6,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
   <link rel="stylesheet" href="css/boilerplate.css" type="text/css" />
   <link rel="stylesheet" href="css/collectin.css" type="text/css" />
-  <link rel="stylesheet" href="css/touchscroll.css">
+   <link rel="stylesheet" href="css/scroll.css" type="text/css" media="screen" />
   <link rel="icon" type="image/png" href="favicon.png">
 </head>
 <body>
+	<div class="scrollable" id="scrollable">
 	<div id="primaryContainer" class="primaryContainer clearfix">
 	<div id"scroller">
                <img id='logo' src='img/logo.png' class='image' />
@@ -42,10 +43,11 @@
        </div>
 	</div>
 	</div>
-	<script src="js/css-beziers.js"></script>
-	<script src="js/touchscroll.js"></script>
-	<script>
-	    var scroller = new TouchScroll(document.querySelector("#scroller"), {elastic: true});
-	</script>
+	</div>
 </body>
+		<script src="js/scrollfix.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript" charset="utf-8">
+                var scrollable = document.getElementById("scrollable");
+                new ScrollFix(scrollable);
+        </script>
 </html>
