@@ -6,15 +6,15 @@
     min-height: 100%;
     width: 100%;
     min-width: 0px;
-    background: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
 }
 #header {
     float: left;
     height: 250px;
-    margin-left: 16.7%;
+    margin-left: 8.34%;
     margin-top: -188px;
     clear: none;
-    width: 66.64%;
+    width: 83.32%;
     background-color: rgb(153, 155, 154);
     position: static;
 }
@@ -27,13 +27,13 @@ body {
     margin-left: 0px;
     margin-top: 0px;
     clear: none;
-    width: 66.64%;
+    width: 83.32%;
     background-image:-webkit-linear-gradient(0deg,rgb(86,63,109) 2%,rgba(86,63,109,0) 100%);
     background-attachment: scroll;
     background-size: auto;
     position: absolute;
     top: 140px;
-    left: 16.7%;
+    left: 8.34%;
     bottom: auto;
     right: auto;
     background-position: 0% 0%;
@@ -95,12 +95,12 @@ body {
 #collectin {
     float: left;
     height: 100px;
-    margin-left: 16.7%;
+    margin-left: 8.34%;
     margin-top: 0px;
     clear: both;
-    width: 66.64%;
+    width: 83.32%;
     background-color: rgb(86, 63, 109);
-    background-image:url("../img/collectin.png");
+    background-image:url("img/collectin.png");
     background-attachment: scroll;
     background-size: auto;
     background-position: 0% 0%;
@@ -139,17 +139,17 @@ body {
 #locatie {
     float: left;
     height: 100px;
-    margin-left: 16.7%;
+    margin-left: 8.34%;
     margin-top: 0px;
     clear: both;
-    width: 66.6425209205021%;
+    width: 83.32%;
     background-color: rgb(86, 63, 109);
     border-bottom-right-radius: 0px;
     padding-top: 0px;
     position: static;
     top: 0px;
     left: 0px;
-    background-image:url("../img/location.png");
+    background-image:url("img/location.png");
     background-attachment: inherit;
     background-size: auto;
     background-position: 0% 0%;
@@ -306,6 +306,8 @@ body {
    #logo {
         clear: none;
         color: rgb(0, 0, 0);
+   }
+   .primaryContainer {
    }
 }
 @media only screen and (min-width: 540px) {
@@ -556,9 +558,13 @@ body {
    #header {
         float: left;
         clear: none;
+        width: 83.320546237534%;
+        height: 250px;
    }
    #status {
         clear: none;
+        bottom: auto;
+        right: auto;
    }
    #statustext {
         float: left;
@@ -599,9 +605,12 @@ body {
         min-height: 0px;
    }
    #logo {
+        width: 18.13327289211242%;
    }
    #locatie {
         float: left;
-        width: 66.64018585675431%;
+        clear: both;
+        width: 83.320546237534%;
+        height: 100px;
    }
 }
