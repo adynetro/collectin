@@ -100,7 +100,7 @@ body {
     clear: both;
     width: 83.32%;
     background-color: rgb(86, 63, 109);
-    background-image:url("img/collectin.png");
+    background-image:url("../img/collectin.png");
     background-attachment: scroll;
     background-size: auto;
     background-position: 0% 0%;
@@ -149,7 +149,7 @@ body {
     position: static;
     top: 0px;
     left: 0px;
-    background-image:url("img/location.png");
+    background-image:url("../img/location.png");
     background-attachment: inherit;
     background-size: auto;
     background-position: 0% 0%;
