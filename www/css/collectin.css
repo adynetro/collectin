@@ -278,6 +278,16 @@ body {
     min-height: 50px;
     margin-right: auto;
 }
+#image {
+    float: left;
+    width: 1.8em;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0.76%;
+    margin-top: 3px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
 
 @media only screen and (min-width: 235px) {
 
@@ -813,5 +823,9 @@ body {
    }
    #nebuloasa {
         clear: none;
+   }
+   #image {
+        clear: none;
+        color: rgb(0, 0, 0);
    }
 }
