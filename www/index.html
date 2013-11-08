@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Collectin</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+	<meta charset="utf-8">
+	<title>Collectin</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
   <link rel="stylesheet" href="css/boilerplate.css" type="text/css" />
   <link rel="stylesheet" href="css/collectin.css" type="text/css" />
-  <link rel="stylesheet" src="css/touchscroll.css">
+  <link rel="stylesheet" href="css/touchscroll.css">
   <link rel="icon" type="image/png" href="favicon.png">
 </head>
 <body>
@@ -44,7 +45,7 @@
 	<script src="js/css-beziers.js"></script>
 	<script src="js/touchscroll.js"></script>
 	<script>
-	    var scroller = new TouchScroll(document.querySelector("#scroller"));
+	    var scroller = new TouchScroll(document.querySelector("#scroller"), {elastic: true});
 	</script>
 </body>
 </html>
