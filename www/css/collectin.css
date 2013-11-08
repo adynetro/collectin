@@ -189,7 +189,7 @@ body {
 }
 #discover {
     float: none;
-    height: auto;
+    height: 100px;
     margin-left: auto;
     margin-top: 0px;
     clear: none;
@@ -197,6 +197,11 @@ body {
     min-height: 50px;
     margin-right: auto;
     background-color: rgb(86, 63, 109);
+    background-image:url("../img/discover.png");
+    background-attachment: scroll;
+    background-size: auto;
+    background-position: 0% 0%;
+    background-repeat: repeat no-repeat;
 }
 #reflow-a33f54fc-763f-b382-cb41-a68bf5484b0c {
     float: left;
@@ -220,7 +225,7 @@ body {
     font-weight: normal;
     line-height: 1em;
     word-wrap: break-word;
-    margin-left: 1.8500127453479482%;
+    margin-left: 1.85%;
     margin-top: 70px;
     clear: none;
     min-height: 0px;
@@ -399,11 +404,9 @@ body {
 @media only screen and (min-width: 640px) {
 
    #discover {
-        height: auto;
         clear: none;
    }
    #logo {
-        width: 28.21015514809591%;
    }
    #header {
         width: 83.3207863187588%;
@@ -708,7 +711,6 @@ body {
         min-height: 0px;
    }
    #logo {
-        width: 18.13327289211242%;
    }
    #locatie {
         float: left;
@@ -728,14 +730,7 @@ body {
         color: rgb(255, 255, 255);
    }
    #discover {
-        height: 100px;
         clear: none;
-        background-color: rgb(86, 63, 109);
-        background-image:url("../img/discover.png");
-        background-attachment: scroll;
-        background-size: auto;
-        background-position: 0% 0%;
-        background-repeat: repeat no-repeat;
    }
    #reflow-a33f54fc-763f-b382-cb41-a68bf5484b0c {
         float: left;
@@ -752,13 +747,7 @@ body {
    }
    #discovertext {
         float: left;
-        font-size: 1em;
-        width: auto;
-        height: auto;
         word-wrap: break-word;
-        margin-left: 1.8500127453479482%;
-        margin-top: 70px;
         clear: none;
-        min-height: 0px;
    }
 }
