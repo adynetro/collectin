@@ -236,6 +236,48 @@ body {
     text-transform: uppercase;
     text-shadow: rgb(0, 0, 0) 0px 3px 3px;
 }
+#using {
+    float: none;
+    height: 100px;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 83.32%;
+    margin-right: auto;
+    background-color: rgb(86, 63, 109);
+    background-image:url("../img/using.png");
+    background-attachment: scroll;
+    background-size: auto;
+    background-position: 0% 0%;
+    background-repeat: repeat no-repeat;
+}
+#usingtext {
+    float: left;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    word-wrap: break-word;
+    margin-left: 1.74%;
+    margin-top: 70px;
+    clear: none;
+    min-height: 0px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 0px 3px 3px;
+}
+#nebuloasa {
+    float: none;
+    height: 100px;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 83.32%;
+    min-height: 50px;
+    margin-right: auto;
+}
 
 @media only screen and (min-width: 235px) {
 
@@ -656,6 +698,8 @@ body {
    }
    #header {
         clear: none;
+        width: 83.320546237534%;
+        height: 250px;
    }
    #status {
         clear: none;
@@ -688,6 +732,8 @@ body {
         margin-left: 1.7699927724161388%;
    }
    #collectin {
+        width: 83.320546237534%;
+        height: 100px;
    }
    #collectintext {
         float: left;
@@ -701,11 +747,16 @@ body {
         min-height: 0px;
    }
    #logo {
+        width: 18.13327289211242%;
    }
    #locatie {
+        width: 83.320546237534%;
+        height: 100px;
    }
    #treasure {
         margin-top: 0px;
+        width: 83.320546237534%;
+        height: 100px;
    }
    #treasuretext {
         font-size: 1em;
@@ -717,6 +768,8 @@ body {
    }
    #discover {
         clear: none;
+        width: 83.36021078875793%;
+        height: 100px;
    }
    #reflow-a33f54fc-763f-b382-cb41-a68bf5484b0c {
         float: left;
@@ -734,6 +787,25 @@ body {
    #discovertext {
         float: left;
         word-wrap: break-word;
+        clear: none;
+   }
+   #using {
+        clear: none;
+        width: 83.320546237534%;
+        height: 100px;
+   }
+   #usingtext {
+        float: left;
+        font-size: 1em;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        word-wrap: break-word;
+        clear: none;
+        text-transform: uppercase;
+        color: rgb(255, 255, 255);
+   }
+   #nebuloasa {
         clear: none;
    }
 }
