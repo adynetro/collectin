@@ -5,10 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
   <link rel="stylesheet" href="css/boilerplate.css" type="text/css" />
   <link rel="stylesheet" href="css/collectin.css" type="text/css" />
+  <link rel="stylesheet" src="css/touchscroll.css">
   <link rel="icon" type="image/png" href="favicon.png">
 </head>
 <body>
 	<div id="primaryContainer" class="primaryContainer clearfix">
+	<div id"scroller">
                <img id='logo' src='img/logo.png' class='image' />
        <div id='header' class='clearfix'>
            <div id='status' class='clearfix'>
@@ -37,7 +39,12 @@
            DISCOVER PLACES
            </p>
        </div>
-
 	</div>
+	</div>
+	<script src="css-beziers.js"></script>
+	<script src="touchscroll.js"></script>
+	<script>
+	    var scroller = new TouchScroll(document.querySelector("#scroller"));
+	</script>
 </body>
 </html>
