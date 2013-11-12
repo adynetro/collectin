@@ -12,161 +12,6 @@
 body {
     color: rgb(0, 0, 0);
 }
-#reflow-649d593a-2071-9d2d-a3f2-243cebda596a {
-    float: left;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    word-wrap: break-word;
-    margin-left: 1.8%;
-    margin-top: 8px;
-    clear: none;
-    min-height: 0px;
-    text-transform: uppercase;
-    font-family: helvetica;
-    color: rgb(255, 255, 255);
-    text-shadow: rgb(0, 0, 0) 0px 3px 3px;
-}
-#reflow-0252d263-6d29-2773-0e08-4ca9d8d2e4cf {
-    float: left;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    word-wrap: break-word;
-    margin-left: 1.8%;
-    margin-top: 70px;
-    clear: none;
-    min-height: 0px;
-    margin-bottom: 0px;
-    text-transform: uppercase;
-    color: rgb(255, 255, 255);
-    text-shadow: rgb(0, 0, 0) 0px 3px 3px;
-}
-#reflow-84d66dc1-cca3-7cc3-0c91-c3821e62a045 {
-    float: left;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    word-wrap: break-word;
-    margin-left: 1.7699927724161388%;
-    margin-top: 102px;
-    clear: none;
-    min-height: 0px;
-    margin-bottom: 0px;
-    text-transform: uppercase;
-    color: rgb(255, 255, 255);
-}
-#reflow-207faeba-41b4-9291-d559-83852c836f53 {
-    float: left;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    word-wrap: break-word;
-    margin-left: 1.7700680272108842%;
-    margin-top: 70px;
-    clear: none;
-    min-height: 0px;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    text-shadow: rgb(0, 0, 0) 0px 3px 3px;
-}
-#reflow-23052ce0-f51b-7337-28e5-9325cb2151fe {
-    float: left;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    word-wrap: break-word;
-    margin-left: 1.77%;
-    margin-top: 70px;
-    clear: none;
-    min-height: 0px;
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    text-shadow: rgb(0, 0, 0) 0px 3px 3px;
-}
-#reflow-a33f54fc-763f-b382-cb41-a68bf5484b0c {
-    float: left;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    word-wrap: break-word;
-    margin-left: 16px;
-    margin-top: 100px;
-    clear: none;
-}
-#reflow-2e89de90-a363-5747-6915-1139610d25ba {
-    float: left;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    word-wrap: break-word;
-    margin-left: 1.85%;
-    margin-top: 70px;
-    clear: none;
-    min-height: 0px;
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    text-shadow: rgb(0, 0, 0) 0px 3px 3px;
-}
-#reflow-04194678-2ddc-e943-3881-f402c3c4efc9 {
-    float: left;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    word-wrap: break-word;
-    margin-left: 1.74%;
-    margin-top: 70px;
-    clear: none;
-    min-height: 0px;
-    text-transform: uppercase;
-    color: rgb(255, 255, 255);
-    text-shadow: rgb(0, 0, 0) 0px 3px 3px;
-}
-#reflow-8e5da630-c087-0e35-1b69-d34c47c0ff99 {
-    margin-left: 92px;
-}
-#reflow-453ea49b-d187-7ec0-2f56-f31b8e37b844 {
-    float: left;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    word-wrap: break-word;
-    margin-left: 1.74%;
-    margin-top: 70px;
-    clear: none;
-    min-height: 0px;
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    text-shadow: rgb(0, 0, 0) 0px 3px 3px;
-}
 #locatie {
     float: left;
     font-size: 2em;
@@ -198,90 +43,6 @@ body {
     min-height: 0px;
     text-shadow: rgb(0, 0, 0) 0px 3px 3px;
     color: rgb(255, 255, 255);
-}
-#reflow-47e6255a-54d8-37aa-b478-f19dfb0ed339 {
-    float: left;
-    font-size: 1.5em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    word-wrap: break-word;
-    margin-left: 1.42%;
-    margin-top: 10px;
-    clear: none;
-    min-height: 0px;
-    text-transform: uppercase;
-    font-family: helvetica;
-    color: rgb(86, 63, 109);
-}
-#reflow-ee5c596e-a2d9-34c8-2848-a967abaaf8ab {
-    margin-left: 0px;
-}
-#reflow-4ec4be51-5387-008c-c71e-75c464065f46 {
-    margin-left: 0px;
-}
-#reflow-bec4d519-c973-a953-56db-835ad6695658 {
-    float: left;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: center;
-    font-weight: normal;
-    line-height: 1em;
-    word-wrap: break-word;
-    margin-left: 0%;
-    margin-top: -20px;
-    clear: none;
-    min-height: 0px;
-    margin-right: 100%;
-    color: rgb(255, 255, 255);
-}
-#reflow-da487248-7ddc-be17-8de7-90b62065bf2e {
-    float: left;
-    font-size: 1em;
-    width: 96.81914893617022%;
-    height: auto;
-    text-align: center;
-    font-weight: normal;
-    line-height: 1em;
-    word-wrap: break-word;
-    margin-left: 0px;
-    margin-top: -25px;
-    clear: none;
-    min-height: 30px;
-    color: rgb(255, 255, 255);
-    font-family: helvetica;
-}
-#reflow-5646844c-e4e0-af01-eb21-326674d91f97 {
-    float: left;
-    font-size: 3em;
-    width: 100%;
-    height: auto;
-    text-align: center;
-    font-weight: normal;
-    line-height: 1em;
-    word-wrap: break-word;
-    margin-left: 0px;
-    margin-top: 0px;
-    clear: both;
-    min-height: 57px;
-    font-family: helvetica;
-    letter-spacing: -2px;
-}
-#reflow-50a94771-512a-4103-f48d-406c9cd3acc8 {
-    float: left;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    word-wrap: break-word;
-    margin-left: 0px;
-    margin-top: 0px;
-    clear: none;
 }
 #continut {
     float: none;
@@ -317,116 +78,6 @@ body {
     width: 100%;
     background-color: rgb(86, 63, 109);
     padding-bottom: 10px;
-}
-#reflow-21314672-0cc8-2de5-37e6-0b1d744541cc {
-    float: left;
-    font-size: 0.8em;
-    width: 300px;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    word-wrap: break-word;
-    margin-left: 12px;
-    margin-top: 10px;
-    clear: none;
-    min-height: 89px;
-}
-#reflow-1bae555f-c746-90e3-aa9a-08eebd9b7aea {
-    float: left;
-    font-size: 2em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    word-wrap: break-word;
-    margin-left: 1.4156451366101637%;
-    margin-top: 0px;
-    clear: both;
-    min-height: 0px;
-    text-transform: uppercase;
-    font-family: helvetica;
-    text-shadow: rgb(0, 0, 0) 0px 3px 3px;
-}
-#reflow-e51f72d5-4e36-6aa2-2b33-dcc42aa211be {
-    float: left;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    word-wrap: break-word;
-    margin-left: 1.4411724700761697%;
-    margin-top: 16px;
-    clear: none;
-    min-height: 0px;
-    text-shadow: rgb(0, 0, 0) 0px 3px 3px;
-    color: rgb(255, 255, 255);
-}
-#reflow-1bb7487d-5b57-026d-7b7a-3c37c933a047 {
-    float: left;
-    font-size: 1.5em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    word-wrap: break-word;
-    margin-left: 1.42%;
-    margin-top: 10px;
-    clear: none;
-    min-height: 0px;
-    text-transform: uppercase;
-    font-family: helvetica;
-    color: rgb(86, 63, 109);
-}
-#reflow-ffb9b7e4-ec66-088d-a084-badd8ff52119 {
-    float: left;
-    font-size: 1em;
-    width: 96.81914893617022%;
-    height: auto;
-    text-align: center;
-    font-weight: normal;
-    line-height: 1em;
-    word-wrap: break-word;
-    margin-left: 0px;
-    margin-top: -25px;
-    clear: none;
-    min-height: 30px;
-    color: rgb(255, 255, 255);
-    font-family: helvetica;
-}
-#reflow-dd55d176-ad73-5e26-f13b-7e01c145d94e {
-    float: left;
-    font-size: 3em;
-    width: 100%;
-    height: auto;
-    text-align: center;
-    font-weight: normal;
-    line-height: 1em;
-    word-wrap: break-word;
-    margin-left: 0px;
-    margin-top: 0px;
-    clear: both;
-    min-height: 57px;
-    font-family: helvetica;
-    letter-spacing: -2px;
-}
-#reflow-984ebaeb-86d1-c051-08d8-a156dd75e157 {
-    float: left;
-    font-size: 0.8em;
-    width: 300px;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    word-wrap: break-word;
-    margin-left: 12px;
-    margin-top: 10px;
-    clear: none;
-    min-height: 89px;
 }
 #text {
     float: left;
@@ -469,19 +120,6 @@ body {
     margin-right: auto;
     color: rgb(255, 255, 255);
     text-shadow: rgb(0, 0, 0) 0px 3px 3px;
-}
-#reflow-46646304-2cc4-f0f7-b000-4f8113ac565b {
-    float: left;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    word-wrap: break-word;
-    margin-left: 83.453125px;
-    margin-top: 408px;
-    clear: none;
 }
 #textspan1 {
     font-style: normal;
@@ -659,8 +297,6 @@ body {
 }
 @media only screen and (min-width: 360px) {
 
-   #reflow-649d593a-2071-9d2d-a3f2-243cebda596a {
-   }
    .primaryContainer {
    }
    #promotiitext {
@@ -668,12 +304,6 @@ body {
 }
 @media only screen and (min-width: 480px) {
 
-   #reflow-0252d263-6d29-2773-0e08-4ca9d8d2e4cf {
-   }
-   #reflow-207faeba-41b4-9291-d559-83852c836f53 {
-   }
-   #reflow-649d593a-2071-9d2d-a3f2-243cebda596a {
-   }
    .primaryContainer {
    }
    #continut {
@@ -711,19 +341,6 @@ body {
         word-wrap: break-word;
         clear: none;
    }
-   #reflow-46646304-2cc4-f0f7-b000-4f8113ac565b {
-        float: left;
-        font-size: 1em;
-        width: auto;
-        height: auto;
-        text-align: left;
-        font-weight: normal;
-        line-height: 1em;
-        word-wrap: break-word;
-        margin-left: 83.453125px;
-        margin-top: 408px;
-        clear: none;
-   }
    #textspan1 {
         float: none;
         font-size: 1em;
@@ -741,8 +358,6 @@ body {
 }
 @media only screen and (min-width: 540px) {
 
-   #reflow-649d593a-2071-9d2d-a3f2-243cebda596a {
-   }
 }
 @media only screen and (min-width: 854px) {
 
@@ -974,86 +589,6 @@ body {
 
    .primaryContainer {
    }
-   #reflow-649d593a-2071-9d2d-a3f2-243cebda596a {
-        float: left;
-        font-weight: normal;
-        word-wrap: break-word;
-        clear: none;
-   }
-   #reflow-0252d263-6d29-2773-0e08-4ca9d8d2e4cf {
-        float: left;
-        word-wrap: break-word;
-        clear: none;
-   }
-   #reflow-84d66dc1-cca3-7cc3-0c91-c3821e62a045 {
-        float: left;
-        font-size: 1em;
-        width: auto;
-        height: auto;
-        text-align: left;
-        font-weight: normal;
-        line-height: 1em;
-        word-wrap: break-word;
-        clear: none;
-        min-height: 0px;
-        margin-top: 102px;
-        margin-left: 1.7699927724161388%;
-   }
-   #reflow-207faeba-41b4-9291-d559-83852c836f53 {
-        float: left;
-        width: auto;
-        height: auto;
-        text-align: left;
-        font-weight: normal;
-        word-wrap: break-word;
-        margin-left: 1.7700680272108842%;
-        clear: none;
-        min-height: 0px;
-   }
-   #reflow-23052ce0-f51b-7337-28e5-9325cb2151fe {
-        font-size: 1em;
-        text-align: left;
-        font-weight: normal;
-        word-wrap: break-word;
-        clear: none;
-        color: rgb(255, 255, 255);
-   }
-   #reflow-a33f54fc-763f-b382-cb41-a68bf5484b0c {
-        float: left;
-        font-size: 1em;
-        width: auto;
-        height: auto;
-        text-align: left;
-        font-weight: normal;
-        line-height: 1em;
-        word-wrap: break-word;
-        margin-left: 16px;
-        margin-top: 100px;
-        clear: none;
-   }
-   #reflow-2e89de90-a363-5747-6915-1139610d25ba {
-        float: left;
-        word-wrap: break-word;
-        clear: none;
-   }
-   #reflow-04194678-2ddc-e943-3881-f402c3c4efc9 {
-        float: left;
-        font-size: 1em;
-        text-align: left;
-        font-weight: normal;
-        line-height: 1em;
-        word-wrap: break-word;
-        clear: none;
-        text-transform: uppercase;
-        color: rgb(255, 255, 255);
-   }
-   #reflow-8e5da630-c087-0e35-1b69-d34c47c0ff99 {
-        margin-left: 92px;
-   }
-   #reflow-453ea49b-d187-7ec0-2f56-f31b8e37b844 {
-        word-wrap: break-word;
-        clear: none;
-   }
    #locatie {
         float: left;
         width: auto;
@@ -1077,66 +612,6 @@ body {
         clear: none;
         min-height: 0px;
    }
-   #reflow-47e6255a-54d8-37aa-b478-f19dfb0ed339 {
-        float: left;
-        font-weight: normal;
-        word-wrap: break-word;
-        clear: none;
-   }
-   #reflow-ee5c596e-a2d9-34c8-2848-a967abaaf8ab {
-        margin-left: 0px;
-   }
-   #reflow-4ec4be51-5387-008c-c71e-75c464065f46 {
-        margin-left: 0px;
-   }
-   #reflow-bec4d519-c973-a953-56db-835ad6695658 {
-        float: left;
-        font-size: 1em;
-        width: auto;
-        height: auto;
-        text-align: center;
-        font-weight: normal;
-        line-height: 1em;
-        word-wrap: break-word;
-        margin-left: 0%;
-        margin-top: -20px;
-        clear: none;
-        min-height: 0px;
-        margin-right: 100%;
-        color: rgb(255, 255, 255);
-   }
-   #reflow-da487248-7ddc-be17-8de7-90b62065bf2e {
-        float: left;
-        font-size: 1em;
-        text-align: center;
-        font-weight: normal;
-        word-wrap: break-word;
-        clear: none;
-        height: auto;
-        width: 96.82142857142858%;
-        margin-top: -25px;
-        margin-left: 0%;
-   }
-   #reflow-5646844c-e4e0-af01-eb21-326674d91f97 {
-        word-wrap: break-word;
-        width: 100%;
-        margin-top: 0px;
-        margin-left: 0%;
-        clear: both;
-   }
-   #reflow-50a94771-512a-4103-f48d-406c9cd3acc8 {
-        float: left;
-        font-size: 1em;
-        width: auto;
-        height: auto;
-        text-align: left;
-        font-weight: normal;
-        line-height: 1em;
-        word-wrap: break-word;
-        margin-left: 0px;
-        margin-top: 0px;
-        clear: none;
-   }
    #continut {
         clear: none;
         width: 83.320546237534%;
@@ -1159,83 +634,6 @@ body {
         line-height: 1em;
         color: rgb(255, 255, 255);
         display: inline;
-   }
-   #reflow-21314672-0cc8-2de5-37e6-0b1d744541cc {
-        font-weight: normal;
-        line-height: 1em;
-        word-wrap: break-word;
-        clear: none;
-   }
-   #reflow-1bae555f-c746-90e3-aa9a-08eebd9b7aea {
-        float: left;
-        font-size: 1em;
-        width: auto;
-        height: auto;
-        text-align: left;
-        font-weight: normal;
-        line-height: 1em;
-        word-wrap: break-word;
-        margin-left: 1.4156451366101637%;
-        clear: both;
-        min-height: 0px;
-        margin-top: 0px;
-   }
-   #reflow-e51f72d5-4e36-6aa2-2b33-dcc42aa211be {
-        float: left;
-        font-size: 1em;
-        width: auto;
-        height: auto;
-        text-align: left;
-        font-weight: normal;
-        line-height: 1em;
-        word-wrap: break-word;
-        margin-left: 1.4411724700761697%;
-        margin-top: 16px;
-        clear: none;
-        min-height: 0px;
-   }
-   #reflow-1bb7487d-5b57-026d-7b7a-3c37c933a047 {
-        float: left;
-        font-size: 1em;
-        width: auto;
-        height: auto;
-        text-align: left;
-        font-weight: normal;
-        line-height: 1em;
-        word-wrap: break-word;
-        clear: none;
-   }
-   #reflow-ffb9b7e4-ec66-088d-a084-badd8ff52119 {
-        float: left;
-        font-size: 1em;
-        width: 96.81914893617022%;
-        height: auto;
-        text-align: center;
-        font-weight: normal;
-        line-height: 1em;
-        word-wrap: break-word;
-        clear: none;
-   }
-   #reflow-dd55d176-ad73-5e26-f13b-7e01c145d94e {
-        float: left;
-        font-size: 1em;
-        width: 100%;
-        height: auto;
-        text-align: left;
-        font-weight: normal;
-        line-height: 1em;
-        word-wrap: break-word;
-   }
-   #reflow-984ebaeb-86d1-c051-08d8-a156dd75e157 {
-        float: left;
-        font-size: 1em;
-        width: auto;
-        height: auto;
-        text-align: left;
-        font-weight: normal;
-        line-height: 1em;
-        word-wrap: break-word;
-        clear: none;
    }
    #promotii1 {
         float: left;

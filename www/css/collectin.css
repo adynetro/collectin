@@ -77,23 +77,6 @@ body {
     color: rgb(255, 255, 255);
     text-shadow: rgb(0, 0, 0) 0px 3px 3px;
 }
-#reflow-84d66dc1-cca3-7cc3-0c91-c3821e62a045 {
-    float: left;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    word-wrap: break-word;
-    margin-left: 1.7699927724161388%;
-    margin-top: 102px;
-    clear: none;
-    min-height: 0px;
-    margin-bottom: 0px;
-    text-transform: uppercase;
-    color: rgb(255, 255, 255);
-}
 #collectin {
     float: none;
     height: 100px;
@@ -213,19 +196,6 @@ body {
     background-repeat: repeat no-repeat;
  
 }
-#reflow-a33f54fc-763f-b382-cb41-a68bf5484b0c {
-    float: left;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    word-wrap: break-word;
-    margin-left: 16px;
-    margin-top: 100px;
-    clear: none;
-}
 #discovertext {
     float: left;
     font-size: 1em;
@@ -302,9 +272,6 @@ body {
     margin-top: 3px;
     clear: none;
     color: rgb(0, 0, 0);
-}
-#reflow-8e5da630-c087-0e35-1b69-d34c47c0ff99 {
-    margin-left: 92px;
 }
 #nebuloasa {
     float: none;
@@ -777,20 +744,6 @@ body {
         word-wrap: break-word;
         clear: none;
    }
-   #reflow-84d66dc1-cca3-7cc3-0c91-c3821e62a045 {
-        float: left;
-        font-size: 1em;
-        width: auto;
-        height: auto;
-        text-align: left;
-        font-weight: normal;
-        line-height: 1em;
-        word-wrap: break-word;
-        clear: none;
-        min-height: 0px;
-        margin-top: 102px;
-        margin-left: 1.7699927724161388%;
-   }
    #collectin {
         width: 83.320546237534%;
         height: 100px;
@@ -830,19 +783,6 @@ body {
         width: 83.36021078875793%;
         height: 100px;
    }
-   #reflow-a33f54fc-763f-b382-cb41-a68bf5484b0c {
-        float: left;
-        font-size: 1em;
-        width: auto;
-        height: auto;
-        text-align: left;
-        font-weight: normal;
-        line-height: 1em;
-        word-wrap: break-word;
-        margin-left: 16px;
-        margin-top: 100px;
-        clear: none;
-   }
    #discovertext {
         float: left;
         word-wrap: break-word;
@@ -870,9 +810,6 @@ body {
    #image {
         clear: none;
         color: rgb(0, 0, 0);
-   }
-   #reflow-8e5da630-c087-0e35-1b69-d34c47c0ff99 {
-        margin-left: 92px;
    }
    #nebuloasa {
         clear: none;
