@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html style="background:#000">
+<html>
 <head>
 	<meta charset="utf-8">
 	<title>Collectin</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
   <link rel="stylesheet" href="css/boilerplate.css" type="text/css" />
   <link rel="stylesheet" href="css/collectin.css" type="text/css" />
-  <script src="js/jquery-1.10.2.min.js"></script>
+  <script src="js/jquery-1.10.2.min.js" /></script>
 </head>
-<body>
+<body style="background:#000000">
 
 	<!-- HTML APP GOES HERE-->
 	
@@ -27,27 +27,27 @@
            BONTON PALACE
            </p>
        </div>
-       <div id='collectin' class='clearfix' onclick="location.href='mycollectin.html'">
+       <div id='collectin' class='clearfix' >
            <p id='collectintext'>
            MY COLLECT IN
            </p>
        </div>
-       <div id='treasure' class='clearfix' onclick="location.href='treasure.html'" >
+       <div id='treasure' class='clearfix' >
            <p id='treasuretext'>
            TREASURE HUNT
            </p>
        </div>
-       <div id='discover' class='clearfix' onclick="location.href='discover.html'">
+       <div id='discover' class='clearfix' >
            <p id='discovertext'>
            DISCOVER PLACES
            </p>
        </div>
-       <div id='games' class='clearfix'onclick="location.href='games.html'">
+       <div id='games' class='clearfix' >
            <p id='gamestext'>
            GAMES
            </p>
        </div>
-       <div id='using' class='clearfix' onclick="location.href='using.html'">
+       <div id='using' class='clearfix' >
            <p id='usingtext'>
            USING  COLLECTIN
            </p>
@@ -57,13 +57,62 @@
 	</div>
 	
     <!--HTML APP ENDS HERE-->
-    <script>
-    $(document).ready(function(){
-    	$("#locatie").click(function(){
-	    $(".primaryContainer").fadeOut(1000); 
-	    window.location.href="location.html";
-    )}
-    )};
-    </script>
+
+<script>
+$(document).ready(function(){
+  $("#locatie").click(function(){
+    $("#primaryContainer").fadeOut(1000);
+	setTimeout(function() {
+  window.location.href = "location.html";
+}, 1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#collectin").click(function(){
+    $("#primaryContainer").fadeOut(1000);
+	setTimeout(function() {
+  window.location.href = "mycollectin.html";
+}, 1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#treasure").click(function(){
+    $("#primaryContainer").fadeOut(1000);
+	setTimeout(function() {
+  window.location.href = "treasure.html";
+}, 1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#discover").click(function(){
+    $("#primaryContainer").fadeOut(1000);
+	setTimeout(function() {
+  window.location.href = "discover.html";
+}, 1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#games").click(function(){
+    $("#primaryContainer").fadeOut(1000);
+	setTimeout(function() {
+  window.location.href = "games.html";
+}, 1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#using").click(function(){
+    $("#primaryContainer").fadeOut(1000);
+	setTimeout(function() {
+  window.location.href = "using.html";
+}, 1000);
+  });
+});
+</script>
+
 </body>
 </html>
