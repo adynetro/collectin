@@ -181,7 +181,6 @@ body {
     min-height: 0px;
     text-transform: uppercase;
     font-family: helvetica;
-    text-shadow: rgb(0, 0, 0) 0px 3px 3px;
 }
 #descriere {
     float: left;
