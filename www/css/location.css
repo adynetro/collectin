@@ -515,7 +515,7 @@ body {
 }
 #promotiitext {
     float: left;
-    font-size: 1.5em;
+    font-size: 1em;
     width: auto;
     height: auto;
     text-align: left;
@@ -662,6 +662,8 @@ body {
    #reflow-649d593a-2071-9d2d-a3f2-243cebda596a {
    }
    .primaryContainer {
+   }
+   #promotiitext {
    }
 }
 @media only screen and (min-width: 480px) {
