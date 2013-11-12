@@ -47,6 +47,8 @@
     <content src="index.html" />
     <access origin="*" />
     <preference name="fullscreen" value="true" />
+    <preference name="bacgroundColor" value="0x00000000" />
+    <preference name="loadingDialog" value="Loading... ,Fetching new content" />
     <preference name="webviewbounce" value="true" />
     <preference name="orientation" value="portrait" />
     <preference name="target-device" value="handset" />
