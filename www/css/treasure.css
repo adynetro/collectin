@@ -1,0 +1,532 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    min-width: 0px;
+    background-color: rgb(0, 0, 0);
+}
+#header {
+    float: none;
+    height: 250px;
+    margin-left: auto;
+    margin-top: 24px;
+    clear: none;
+    width: 83.320546237534%;
+    background-color: rgb(153, 155, 154);
+    position: static;
+    margin-right: auto;
+    background-image:url("../img/trasee.jpg");
+    background-attachment: scroll;
+    background-size: auto;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-position: 0% 0%;
+    background-repeat: no-repeat !important;
+}
+body {
+    color: rgb(0, 0, 0);
+}
+#traseetext {
+    float: left;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    word-wrap: break-word;
+    margin-left: 1.8%;
+    margin-top: 70px;
+    clear: none;
+    min-height: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 0px 3px 3px;
+}
+#traseen {
+    float: none;
+    height: 100px;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 83.320546237534%;
+    background-color: rgb(86, 63, 109);
+    margin-right: auto;
+}
+#traseentext {
+    float: left;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    word-wrap: break-word;
+    margin-left: 1.7700680272108842%;
+    margin-top: 70px;
+    clear: none;
+    min-height: 0px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-shadow: rgb(0, 0, 0) 0px 3px 3px;
+}
+#treasee {
+    float: none;
+    height: 100px;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 83.32%;
+    background-color: rgb(86, 63, 109);
+    border-bottom-right-radius: 0px;
+    padding-top: 0px;
+    position: static;
+    top: 0px;
+    left: 0px;
+    margin-right: auto;
+}
+#nebuloasa {
+    float: none;
+    height: 60px;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 83.32%;
+    margin-right: auto;
+}
+
+@media only screen and (min-width: 235px) {
+
+   #grid .column.grid-0 {
+        margin-left: 0%;
+   }
+   #grid .gutter.left.grid-1 {
+        margin-left: 4.914285714285714%;
+   }
+   #grid .gutter.right.grid-1 {
+        margin-left: 6.114285714285714%;
+   }
+   #grid .column.grid-1 {
+        margin-left: 7.314285714285713%;
+   }
+   #grid .gutter.left.grid-2 {
+        margin-left: 12.228571428571428%;
+   }
+   #grid .gutter.right.grid-2 {
+        margin-left: 13.428571428571429%;
+   }
+   #grid .column.grid-2 {
+        margin-left: 14.628571428571428%;
+   }
+   #grid .gutter.left.grid-3 {
+        margin-left: 19.54285714285714%;
+   }
+   #grid .gutter.right.grid-3 {
+        margin-left: 20.74285714285714%;
+   }
+   #grid .column.grid-3 {
+        margin-left: 21.94285714285714%;
+   }
+   #grid .gutter.left.grid-4 {
+        margin-left: 26.857142857142858%;
+   }
+   #grid .gutter.right.grid-4 {
+        margin-left: 28.057142857142853%;
+   }
+   #grid .column.grid-4 {
+        margin-left: 29.257142857142856%;
+   }
+   #grid .gutter.left.grid-5 {
+        margin-left: 34.17142857142858%;
+   }
+   #grid .gutter.right.grid-5 {
+        margin-left: 35.371428571428574%;
+   }
+   #grid .column.grid-5 {
+        margin-left: 36.57142857142858%;
+   }
+   #grid .gutter.left.grid-6 {
+        margin-left: 41.48571428571428%;
+   }
+   #grid .gutter.right.grid-6 {
+        margin-left: 42.68571428571428%;
+   }
+   #grid .column.grid-6 {
+        margin-left: 43.88571428571428%;
+   }
+   #grid .gutter.left.grid-7 {
+        margin-left: 48.800000000000004%;
+   }
+   #grid .gutter.right.grid-7 {
+        margin-left: 50%;
+   }
+   #grid .column.grid-7 {
+        margin-left: 51.2%;
+   }
+   #grid .gutter.left.grid-8 {
+        margin-left: 56.11428571428571%;
+   }
+   #grid .gutter.right.grid-8 {
+        margin-left: 57.31428571428571%;
+   }
+   #grid .column.grid-8 {
+        margin-left: 58.514285714285705%;
+   }
+   #grid .gutter.left.grid-9 {
+        margin-left: 63.428571428571445%;
+   }
+   #grid .gutter.right.grid-9 {
+        margin-left: 64.62857142857143%;
+   }
+   #grid .column.grid-9 {
+        margin-left: 65.82857142857145%;
+   }
+   #grid .gutter.left.grid-10 {
+        margin-left: 70.74285714285715%;
+   }
+   #grid .gutter.right.grid-10 {
+        margin-left: 71.94285714285714%;
+   }
+   #grid .column.grid-10 {
+        margin-left: 73.14285714285715%;
+   }
+   #grid .gutter.left.grid-11 {
+        margin-left: 78.05714285714286%;
+   }
+   #grid .gutter.right.grid-11 {
+        margin-left: 79.25714285714285%;
+   }
+   #grid .column.grid-11 {
+        margin-left: 80.45714285714287%;
+   }
+   #grid .gutter.left.grid-12 {
+        margin-left: 85.37142857142857%;
+   }
+   #grid .gutter.right.grid-12 {
+        margin-left: 86.57142857142856%;
+   }
+   #grid .column.grid-12 {
+        margin-left: 87.77142857142857%;
+   }
+   #grid .gutter.left.grid-13 {
+        margin-left: 92.6857142857143%;
+   }
+   #grid .gutter.right.grid-13 {
+        margin-left: 93.8857142857143%;
+   }
+   #grid .column.grid-13 {
+        margin-left: 95.0857142857143%;
+   }
+   #grid .column {
+        width: 4.914285714285715%;
+   }
+}
+@media only screen and (min-width: 360px) {
+
+   .primaryContainer {
+   }
+}
+@media only screen and (min-width: 480px) {
+
+   #traseetext {
+   }
+   #traseentext {
+   }
+   #traseen {
+   }
+   #header {
+        clear: none;
+   }
+   .primaryContainer {
+   }
+}
+@media only screen and (min-width: 540px) {
+
+
+   #header {
+   }
+}
+@media only screen and (min-width: 640px) {
+
+   #header {
+   }
+   #treasee {
+   }
+   #traseen {
+   }
+}
+@media only screen and (min-width: 854px) {
+
+   #grid .outer.gutter {
+        display: block;
+        visibility: visible;
+   }
+   #grid .grid-12, #grid .grid-13, #grid .grid-14, #grid .grid-15 {
+        display: none;
+        visibility: hidden;
+   }
+   #grid .grid-0, #grid .grid-1, #grid .grid-2, #grid .grid-3, #grid .grid-4, #grid .grid-5, #grid .grid-6, #grid .grid-7, #grid .grid-8, #grid .grid-9, #grid .grid-10, #grid .grid-11 {
+        display: block;
+        visibility: visible;
+   }
+   #grid .column.grid-0 {
+        margin-left: 1.2%;
+   }
+   #grid .gutter.left.grid-1 {
+        margin-left: 7.133333333333332%;
+   }
+   #grid .gutter.right.grid-1 {
+        margin-left: 8.333333333333332%;
+   }
+   #grid .column.grid-1 {
+        margin-left: 9.533333333333331%;
+   }
+   #grid .gutter.left.grid-2 {
+        margin-left: 15.466666666666665%;
+   }
+   #grid .gutter.right.grid-2 {
+        margin-left: 16.666666666666664%;
+   }
+   #grid .column.grid-2 {
+        margin-left: 17.866666666666664%;
+   }
+   #grid .gutter.left.grid-3 {
+        margin-left: 23.8%;
+   }
+   #grid .gutter.right.grid-3 {
+        margin-left: 25.000000000000007%;
+   }
+   #grid .column.grid-3 {
+        margin-left: 26.2%;
+   }
+   #grid .gutter.left.grid-4 {
+        margin-left: 32.13333333333333%;
+   }
+   #grid .gutter.right.grid-4 {
+        margin-left: 33.33333333333333%;
+   }
+   #grid .column.grid-4 {
+        margin-left: 34.53333333333333%;
+   }
+   #grid .gutter.left.grid-5 {
+        margin-left: 40.46666666666666%;
+   }
+   #grid .gutter.right.grid-5 {
+        margin-left: 41.666666666666664%;
+   }
+   #grid .column.grid-5 {
+        margin-left: 42.86666666666666%;
+   }
+   #grid .gutter.left.grid-6 {
+        margin-left: 48.79999999999999%;
+   }
+   #grid .gutter.right.grid-6 {
+        margin-left: 49.99999999999999%;
+   }
+   #grid .column.grid-6 {
+        margin-left: 51.19999999999999%;
+   }
+   #grid .gutter.left.grid-7 {
+        margin-left: 57.13333333333333%;
+   }
+   #grid .gutter.right.grid-7 {
+        margin-left: 58.333333333333336%;
+   }
+   #grid .column.grid-7 {
+        margin-left: 59.53333333333333%;
+   }
+   #grid .gutter.left.grid-8 {
+        margin-left: 65.46666666666667%;
+   }
+   #grid .gutter.right.grid-8 {
+        margin-left: 66.66666666666666%;
+   }
+   #grid .column.grid-8 {
+        margin-left: 67.86666666666667%;
+   }
+   #grid .gutter.left.grid-9 {
+        margin-left: 73.8%;
+   }
+   #grid .gutter.right.grid-9 {
+        margin-left: 75%;
+   }
+   #grid .column.grid-9 {
+        margin-left: 76.2%;
+   }
+   #grid .gutter.left.grid-10 {
+        margin-left: 82.13333333333334%;
+   }
+   #grid .gutter.right.grid-10 {
+        margin-left: 83.33333333333334%;
+   }
+   #grid .column.grid-10 {
+        margin-left: 84.53333333333335%;
+   }
+   #grid .gutter.left.grid-11 {
+        margin-left: 90.46666666666667%;
+   }
+   #grid .gutter.right.grid-11 {
+        margin-left: 91.66666666666666%;
+   }
+   #grid .column.grid-11 {
+        margin-left: 92.86666666666667%;
+   }
+   #grid .column {
+        width: 5.933333333333334%;
+   }
+}
+@media only screen and (min-width: 960px) {
+
+   .primaryContainer {
+   }
+   #grid .column.grid-0 {
+        margin-left: 1.2%;
+   }
+   #grid .gutter.left.grid-1 {
+        margin-left: 7.133333333333332%;
+   }
+   #grid .gutter.right.grid-1 {
+        margin-left: 8.333333333333332%;
+   }
+   #grid .column.grid-1 {
+        margin-left: 9.533333333333331%;
+   }
+   #grid .gutter.left.grid-2 {
+        margin-left: 15.466666666666665%;
+   }
+   #grid .gutter.right.grid-2 {
+        margin-left: 16.666666666666664%;
+   }
+   #grid .column.grid-2 {
+        margin-left: 17.866666666666664%;
+   }
+   #grid .gutter.left.grid-3 {
+        margin-left: 23.8%;
+   }
+   #grid .gutter.right.grid-3 {
+        margin-left: 25.000000000000007%;
+   }
+   #grid .column.grid-3 {
+        margin-left: 26.2%;
+   }
+   #grid .gutter.left.grid-4 {
+        margin-left: 32.13333333333333%;
+   }
+   #grid .gutter.right.grid-4 {
+        margin-left: 33.33333333333333%;
+   }
+   #grid .column.grid-4 {
+        margin-left: 34.53333333333333%;
+   }
+   #grid .gutter.left.grid-5 {
+        margin-left: 40.46666666666666%;
+   }
+   #grid .gutter.right.grid-5 {
+        margin-left: 41.666666666666664%;
+   }
+   #grid .column.grid-5 {
+        margin-left: 42.86666666666666%;
+   }
+   #grid .gutter.left.grid-6 {
+        margin-left: 48.79999999999999%;
+   }
+   #grid .gutter.right.grid-6 {
+        margin-left: 49.99999999999999%;
+   }
+   #grid .column.grid-6 {
+        margin-left: 51.19999999999999%;
+   }
+   #grid .gutter.left.grid-7 {
+        margin-left: 57.13333333333333%;
+   }
+   #grid .gutter.right.grid-7 {
+        margin-left: 58.333333333333336%;
+   }
+   #grid .column.grid-7 {
+        margin-left: 59.53333333333333%;
+   }
+   #grid .gutter.left.grid-8 {
+        margin-left: 65.46666666666667%;
+   }
+   #grid .gutter.right.grid-8 {
+        margin-left: 66.66666666666666%;
+   }
+   #grid .column.grid-8 {
+        margin-left: 67.86666666666667%;
+   }
+   #grid .gutter.left.grid-9 {
+        margin-left: 73.8%;
+   }
+   #grid .gutter.right.grid-9 {
+        margin-left: 75%;
+   }
+   #grid .column.grid-9 {
+        margin-left: 76.2%;
+   }
+   #grid .gutter.left.grid-10 {
+        margin-left: 82.13333333333334%;
+   }
+   #grid .gutter.right.grid-10 {
+        margin-left: 83.33333333333334%;
+   }
+   #grid .column.grid-10 {
+        margin-left: 84.53333333333335%;
+   }
+   #grid .gutter.left.grid-11 {
+        margin-left: 90.46666666666667%;
+   }
+   #grid .gutter.right.grid-11 {
+        margin-left: 91.66666666666666%;
+   }
+   #grid .column.grid-11 {
+        margin-left: 92.86666666666667%;
+   }
+   #grid .column {
+        width: 5.933333333333334%;
+   }
+}
+@media only screen and (min-width: 1032px) {
+
+   .primaryContainer {
+   }
+   #header {
+        clear: none;
+        width: 83.320546237534%;
+        height: 250px;
+        margin-top: 24px;
+   }
+      #traseetext {
+        float: left;
+        word-wrap: break-word;
+        clear: none;
+   }
+   #traseen {
+        width: 83.320546237534%;
+        height: 100px;
+   }
+   #traseentext {
+        float: left;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        word-wrap: break-word;
+        margin-left: 1.7700680272108842%;
+        clear: none;
+        min-height: 0px;
+   }
+   #treasee {
+        clear: none;
+   }
+   #nebuloasa {
+        clear: none;
+        margin-top: 0px;
+   }
+}
