@@ -17,6 +17,12 @@
     clear: none;
     width: 83.320546237534%;
     background-color: rgb(153, 155, 154);
+    background-image:url("../img/carbon.png");
+    background-attachment: scroll;
+    background-size: auto;
+    margin-right: auto;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
     position: static;
     margin-right: auto;
 }
