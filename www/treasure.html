@@ -14,8 +14,11 @@
 	
 	<div id="primaryContainer" class="primaryContainer clearfix">
                <div id='header' class='clearfix'>
+                 <p id='title'>
+           treasure hunt
+           </p>
        </div>
-       <div id='treasee' class='clearfix'>
+       <div id='trasee' class='clearfix'>
            <p id='traseetext'>
            TRASEE LOCALE
            </p>
@@ -37,19 +40,19 @@
 <script>
 $("#primaryContainer").hide(0).fadeIn(300);
 $(document).ready(function(){
-  $("#locatie").click(function(){
+  $("#trasee").click(function(){
     $("#primaryContainer").fadeOut(300);
 	setTimeout(function() {
-  window.location.href = "location.html";
+  window.location.href = "locale.html";
 }, 300);
   });
 });
 
 $(document).ready(function(){
-  $("#collectin").click(function(){
+  $("#traseen").click(function(){
     $("#primaryContainer").fadeOut(300);
 	setTimeout(function() {
-  window.location.href = "mycollectin.html";
+  window.location.href = "nationale.html";
 }, 300);
   });
 });
