@@ -12,7 +12,7 @@
 body {
     color: rgb(0, 0, 0);
 }
-#locatie {
+#mycollect {
     float: left;
     font-size: 2em;
     width: auto;
@@ -27,6 +27,15 @@ body {
     min-height: 0px;
     text-transform: uppercase;
     font-family: helvetica;
+}
+#descrierebox {
+    float: left;
+    height: auto;
+    margin: 0px 0px 0px 0%;
+    clear: both;
+    width: 100%;
+    background-color: rgb(86, 63, 109);
+    padding-bottom: 10px;
 }
 #descriere {
     float: left;
@@ -58,14 +67,19 @@ body {
     margin-right: auto;
     padding-bottom: 60px;
 }
-#descrierebox {
+#collectid {
     float: left;
-    height: auto;
-    margin: 10px 0px 0px 0%;
-    clear: both;
+    height: 200px;
+    margin-left: 0px;
+    margin-top: 0px;
+    clear: none;
     width: 100%;
     background-color: rgb(86, 63, 109);
-    padding-bottom: 10px;
+    background-image:url("../img/mycollectin.jpg");
+    background-attachment: inherit;
+    background-size: cover;
+    background-position: 0px 50%;
+    background-repeat: no-repeat no-repeat;
 }
 #image {
     float: none;
@@ -240,8 +254,8 @@ body {
 }
 @media only screen and (min-width: 540px) {
 
-   #locatie {
-        margin-top: 10px;
+   #mycollect {
+        margin-top: 0px;
         margin-left: 1.2881015371219986%;
         clear: none;
    }
@@ -491,7 +505,7 @@ body {
 
    .primaryContainer {
    }
-   #locatie {
+   #mycollect {
         float: left;
         width: auto;
         height: auto;
