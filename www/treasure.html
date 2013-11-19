@@ -12,23 +12,23 @@
 
 	<!-- HTML APP GOES HERE-->
 	
-	<div id="primaryContainer" class="primaryContainer clearfix">
-               <div id='header' class='clearfix'>
-                 <p id='title'>
-           treasure hunt
+<div id="primaryContainer" class="primaryContainer clearfix">
+               <div id='continut' class='clearfix'>
+           <div id='imaginetreasure' class='clearfix'>
+           </div>
+           <p id='treasure'>
+           TREASURE HUNT
            </p>
-       </div>
-       <div id='trasee' class='clearfix'>
-           <p id='traseetext'>
-           TRASEE LOCALE
-           </p>
-       </div>
-       <div id='traseen' class='clearfix'>
-           <p id='traseentext'>
-           TRASEE NATIONALE
-           </p>
-       </div>
-       <div id='nebuloasa' class='clearfix'>
+           <div id='traseelocale' class='clearfix'>
+               <p id='textlocale'>
+               TRASEE LOCALE
+               </p>
+           </div>
+           <div id='traseenationale' class='clearfix'>
+               <p id='textnationale'>
+               TRASEE NATIONALE
+               </p>
+           </div>
        </div>
 
 	</div>
@@ -40,7 +40,7 @@
 <script>
 $("#primaryContainer").hide(0).fadeIn(300);
 $(document).ready(function(){
-  $("#trasee").click(function(){
+  $("#traseelocale").click(function(){
     $("#primaryContainer").fadeOut(300);
 	setTimeout(function() {
   window.location.href = "locale.html";
@@ -49,7 +49,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $("#traseen").click(function(){
+  $("#traseenationale").click(function(){
     $("#primaryContainer").fadeOut(300);
 	setTimeout(function() {
   window.location.href = "nationale.html";

@@ -8,28 +8,10 @@
     min-width: 0px;
     background-color: rgb(0, 0, 0);
 }
-#header {
-    float: none;
-    height: 150px;
-    margin-left: auto;
-    margin-top: 0px;
-    clear: none;
-    width: 83.320546237534%;
-    background-color: rgb(153, 155, 154);
-    position: static;
-    margin-right: auto;
-    background-image:url("../img/trasee.jpg");
-    background-attachment: scroll;
-    background-size: auto;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    background-position: 0% 0%;
-    background-repeat: no-repeat;
-    background-size: cover !important;
+body {
+    color: rgb(0, 0, 0);
 }
-#title {
+#treasure {
     float: left;
     font-size: 2em;
     width: auto;
@@ -38,20 +20,56 @@
     font-weight: normal;
     line-height: 1em;
     word-wrap: break-word;
-    margin-left: 1.44%;
-    margin-top: 100px;
-    clear: none;
+    margin-left: 1.4156451366101637%;
+    margin-top: 0px;
+    clear: both;
     min-height: 0px;
-    color: rgb(255, 255, 255);
-    margin-bottom: 1px;
-    text-shadow: rgb(0, 0, 0) 0px 3px 3px;
     text-transform: uppercase;
-    text-indent: 0px;
+    font-family: helvetica;
 }
-body {
-    color: rgb(0, 0, 0);
+#continut {
+    float: none;
+    height: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 83.32%;
+    background-color: rgb(255, 255, 255);
+    position: static;
+    margin-right: auto;
+    padding-bottom: 0px;
 }
-#traseetext {
+#imaginetreasure {
+    float: none;
+    height: 200px;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    background-color: rgb(86, 63, 109);
+    background-image:url("../img/trasee.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    margin-right: auto;
+    background-position: 0% 0%;
+    background-repeat: no-repeat no-repeat;
+}
+#traseelocale {
+    float: none;
+    height: 100px;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: both;
+    width: 99.9488543371522%;
+    background-color: rgb(86, 63, 109);
+    margin-right: auto;
+    background-image:url("../img/locale.png");
+    background-attachment: scroll;
+    background-size: auto;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+#textlocale {
     float: left;
     font-size: 1em;
     width: auto;
@@ -64,29 +82,28 @@ body {
     margin-top: 70px;
     clear: none;
     min-height: 0px;
-    margin-bottom: 0px;
-    text-transform: uppercase;
     color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: helvetica;
+    margin-bottom: 0px;
     text-shadow: rgb(0, 0, 0) 0px 3px 3px;
 }
-#traseen {
+#traseenationale {
     float: none;
     height: 100px;
     margin-left: auto;
     margin-top: 0px;
     clear: none;
-    width: 83.320546237534%;
+    width: 100%;
     background-color: rgb(86, 63, 109);
     margin-right: auto;
     background-image:url("../img/nationale.png");
     background-attachment: scroll;
     background-size: auto;
-    margin-right: auto;
     background-position: 0% 0%;
-    background-repeat: repeat no-repeat;
-
+    background-repeat: repeat repeat;
 }
-#traseentext {
+#textnationale {
     float: left;
     font-size: 1em;
     width: auto;
@@ -95,213 +112,195 @@ body {
     font-weight: normal;
     line-height: 1em;
     word-wrap: break-word;
-    margin-left: 1.7700680272108842%;
+    margin-left: 1.8%;
     margin-top: 70px;
     clear: none;
     min-height: 0px;
-    text-decoration: none;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     text-shadow: rgb(0, 0, 0) 0px 3px 3px;
-}
-#trasee {
-    float: none;
-    height: 100px;
-    margin-left: auto;
-    margin-top: 0px;
-    clear: none;
-    width: 83.32%;
-    background-color: rgb(86, 63, 109);
-    border-bottom-right-radius: 0px;
-    padding-top: 0px;
-    position: static;
-    top: 0px;
-    left: 0px;
-    margin-right: auto;
-    background-image:url("../img/locale.png");
-    background-attachment: scroll;
-    background-size: auto;
-    margin-right: auto;
-    background-position: 0% 0%;
-    background-repeat: repeat no-repeat;
-
-}
-#nebuloasa {
-    float: none;
-    height: 60px;
-    margin-left: auto;
-    margin-top: 0px;
-    clear: none;
-    width: 83.32%;
-    margin-right: auto;
 }
 
 @media only screen and (min-width: 235px) {
 
    #grid .column.grid-0 {
-        margin-left: 0%;
+        margin-left: 1.2%;
    }
    #grid .gutter.left.grid-1 {
-        margin-left: 4.914285714285714%;
+        margin-left: 5.942857142857143%;
    }
    #grid .gutter.right.grid-1 {
-        margin-left: 6.114285714285714%;
+        margin-left: 7.142857142857142%;
    }
    #grid .column.grid-1 {
-        margin-left: 7.314285714285713%;
+        margin-left: 8.342857142857143%;
    }
    #grid .gutter.left.grid-2 {
-        margin-left: 12.228571428571428%;
+        margin-left: 13.085714285714287%;
    }
    #grid .gutter.right.grid-2 {
-        margin-left: 13.428571428571429%;
+        margin-left: 14.285714285714285%;
    }
    #grid .column.grid-2 {
-        margin-left: 14.628571428571428%;
+        margin-left: 15.485714285714288%;
    }
    #grid .gutter.left.grid-3 {
-        margin-left: 19.54285714285714%;
+        margin-left: 20.228571428571428%;
    }
    #grid .gutter.right.grid-3 {
-        margin-left: 20.74285714285714%;
+        margin-left: 21.42857142857143%;
    }
    #grid .column.grid-3 {
-        margin-left: 21.94285714285714%;
+        margin-left: 22.628571428571426%;
    }
    #grid .gutter.left.grid-4 {
-        margin-left: 26.857142857142858%;
+        margin-left: 27.371428571428574%;
    }
    #grid .gutter.right.grid-4 {
-        margin-left: 28.057142857142853%;
+        margin-left: 28.57142857142857%;
    }
    #grid .column.grid-4 {
-        margin-left: 29.257142857142856%;
+        margin-left: 29.771428571428572%;
    }
    #grid .gutter.left.grid-5 {
-        margin-left: 34.17142857142858%;
+        margin-left: 34.51428571428571%;
    }
    #grid .gutter.right.grid-5 {
-        margin-left: 35.371428571428574%;
+        margin-left: 35.71428571428571%;
    }
    #grid .column.grid-5 {
-        margin-left: 36.57142857142858%;
+        margin-left: 36.91428571428571%;
    }
    #grid .gutter.left.grid-6 {
-        margin-left: 41.48571428571428%;
+        margin-left: 41.65714285714285%;
    }
    #grid .gutter.right.grid-6 {
-        margin-left: 42.68571428571428%;
+        margin-left: 42.857142857142854%;
    }
    #grid .column.grid-6 {
-        margin-left: 43.88571428571428%;
+        margin-left: 44.05714285714285%;
    }
    #grid .gutter.left.grid-7 {
-        margin-left: 48.800000000000004%;
+        margin-left: 48.79999999999999%;
    }
    #grid .gutter.right.grid-7 {
-        margin-left: 50%;
+        margin-left: 49.99999999999999%;
    }
    #grid .column.grid-7 {
-        margin-left: 51.2%;
+        margin-left: 51.19999999999999%;
    }
    #grid .gutter.left.grid-8 {
-        margin-left: 56.11428571428571%;
+        margin-left: 55.94285714285713%;
    }
    #grid .gutter.right.grid-8 {
-        margin-left: 57.31428571428571%;
+        margin-left: 57.14285714285713%;
    }
    #grid .column.grid-8 {
-        margin-left: 58.514285714285705%;
+        margin-left: 58.34285714285713%;
    }
    #grid .gutter.left.grid-9 {
-        margin-left: 63.428571428571445%;
+        margin-left: 63.08571428571429%;
    }
    #grid .gutter.right.grid-9 {
-        margin-left: 64.62857142857143%;
+        margin-left: 64.28571428571428%;
    }
    #grid .column.grid-9 {
-        margin-left: 65.82857142857145%;
+        margin-left: 65.4857142857143%;
    }
    #grid .gutter.left.grid-10 {
-        margin-left: 70.74285714285715%;
+        margin-left: 70.22857142857143%;
    }
    #grid .gutter.right.grid-10 {
-        margin-left: 71.94285714285714%;
+        margin-left: 71.42857142857142%;
    }
    #grid .column.grid-10 {
-        margin-left: 73.14285714285715%;
+        margin-left: 72.62857142857143%;
    }
    #grid .gutter.left.grid-11 {
-        margin-left: 78.05714285714286%;
+        margin-left: 77.37142857142857%;
    }
    #grid .gutter.right.grid-11 {
-        margin-left: 79.25714285714285%;
+        margin-left: 78.57142857142857%;
    }
    #grid .column.grid-11 {
-        margin-left: 80.45714285714287%;
+        margin-left: 79.77142857142857%;
    }
    #grid .gutter.left.grid-12 {
-        margin-left: 85.37142857142857%;
+        margin-left: 84.5142857142857%;
    }
    #grid .gutter.right.grid-12 {
-        margin-left: 86.57142857142856%;
+        margin-left: 85.71428571428571%;
    }
    #grid .column.grid-12 {
-        margin-left: 87.77142857142857%;
+        margin-left: 86.91428571428571%;
    }
    #grid .gutter.left.grid-13 {
-        margin-left: 92.6857142857143%;
+        margin-left: 91.65714285714284%;
    }
    #grid .gutter.right.grid-13 {
-        margin-left: 93.8857142857143%;
+        margin-left: 92.85714285714285%;
    }
    #grid .column.grid-13 {
-        margin-left: 95.0857142857143%;
+        margin-left: 94.05714285714285%;
    }
    #grid .column {
-        width: 4.914285714285715%;
+        width: 4.742857142857144%;
    }
 }
 @media only screen and (min-width: 360px) {
 
    .primaryContainer {
    }
+   #imaginetreasure {
+        clear: none;
+   }
 }
 @media only screen and (min-width: 480px) {
 
-   #traseetext {
+   .primaryContainer {
    }
-   #traseentext {
-   }
-   #traseen {
-   }
-   #header {
+   #continut {
         clear: none;
    }
-   .primaryContainer {
+   #imaginetreasure {
+        width: 100%;
+        height: 200px;
    }
 }
 @media only screen and (min-width: 540px) {
 
-
-   #header {
+   #traseelocale {
+        background-color: rgb(86, 63, 109);
+        margin-top: 0px;
+        background-image:url("../img/locale.png");
+        background-attachment: scroll;
+        background-size: auto;
+        width: 99.9488543371522%;
+        height: 100px;
+        background-position: 0% 0%;
+        background-repeat: repeat repeat;
    }
-}
-@media only screen and (min-width: 640px) {
-
-   #header {
+   #imaginetreasure {
+        width: 100%;
+        height: 200px;
    }
-   #treasee {
+   #textlocale {
+        float: left;
+        word-wrap: break-word;
+        clear: none;
    }
-   #traseen {
+   #traseenationale {
+        clear: none;
+   }
+   #textnationale {
+        float: left;
+        word-wrap: break-word;
+        clear: none;
+        min-height: 0px;
    }
 }
 @media only screen and (min-width: 854px) {
 
-   #grid .outer.gutter {
-        display: block;
-        visibility: visible;
-   }
    #grid .grid-12, #grid .grid-13, #grid .grid-14, #grid .grid-15 {
         display: none;
         visibility: hidden;
@@ -525,42 +524,32 @@ body {
    #grid .column {
         width: 5.933333333333334%;
    }
+   #imaginetreasure {
+   }
+   #continut {
+   }
 }
 @media only screen and (min-width: 1032px) {
 
    .primaryContainer {
    }
-   #header {
-        clear: none;
-        width: 83.320546237534%;
-        height: 250px;
-        margin-top: 24px;
-   }
-      #traseetext {
-        float: left;
-        word-wrap: break-word;
-        clear: none;
-   }
-   #traseen {
-        width: 83.320546237534%;
-        height: 100px;
-   }
-   #traseentext {
+   #treasure {
         float: left;
         width: auto;
         height: auto;
-        text-align: left;
-        font-weight: normal;
         word-wrap: break-word;
-        margin-left: 1.7700680272108842%;
-        clear: none;
+        margin-left: 1.4156451366101637%;
+        clear: both;
         min-height: 0px;
-   }
-   #treasee {
-        clear: none;
-   }
-   #nebuloasa {
-        clear: none;
         margin-top: 0px;
+   }
+   #continut {
+        clear: none;
+        width: 83.320546237534%;
+   }
+   #imaginetreasure {
+        clear: none;
+        width: 100%;
+        height: 200px;
    }
 }

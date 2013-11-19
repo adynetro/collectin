@@ -22,7 +22,7 @@ body {
     line-height: 1em;
     word-wrap: break-word;
     margin-left: 1.2881015371219986%;
-    margin-top: 10px;
+    margin-top: 0px;
     clear: none;
     min-height: 0px;
     text-transform: uppercase;
@@ -47,7 +47,7 @@ body {
     line-height: 1em;
     word-wrap: break-word;
     margin-left: 1.4411724700761697%;
-    margin-top: 10px;
+    margin-top: 0.5em;
     clear: none;
     min-height: 0px;
     text-shadow: rgb(0, 0, 0) 0px 3px 3px;
@@ -65,7 +65,7 @@ body {
     background-color: rgb(255, 255, 255);
     position: static;
     margin-right: auto;
-    padding-bottom: 60px;
+    padding-bottom: 5px;
 }
 #collectid {
     float: left;
@@ -78,7 +78,7 @@ body {
     background-image:url("../img/mycollectin.jpg");
     background-attachment: inherit;
     background-size: cover;
-    background-position: 0px 50%;
+    background-position: center center;
     background-repeat: no-repeat no-repeat;
 }
 #image {
