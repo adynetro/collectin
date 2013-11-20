@@ -43,6 +43,9 @@
 	<gap:splash src="splash/bb/splash.png" gap:platform="blackberry" />
 	<gap:splash src="splash/winphone/splash.jpg" gap:platform="winphone" />
 	
+	<!-- Geolocation -->
+	<gap:plugin name="org.apache.cordova.geolocation" />
+	
 	<!--HTML Content--> 
     <content src="index.html" />
     <access origin="*" />
@@ -52,9 +55,5 @@
     <preference name="webviewbounce" value="true" />
     <preference name="orientation" value="portrait" />
     <preference name="target-device" value="handset" />
-    <feature name="http://api.phonegap.com/1.0/geolocation"/>
-	<feature name="http://api.phonegap.com/1.0/media"/>
-	<feature name="http://api.phonegap.com/1.0/network"/>
-	<feature name="http://api.phonegap.com/1.0/notification"/>
 </widget>
 
