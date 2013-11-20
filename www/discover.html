@@ -5,12 +5,69 @@
 	<title>Collectin</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
   <link rel="stylesheet" href="css/boilerplate.css" type="text/css" />
+  <link rel="stylesheet" href="css/discover.css" type="text/css" />
+  <link rel="stylesheet" href="css/leaflet.css" type="text/css" />
   <script src="js/jquery-1.10.2.min.js" /></script>
+  <script src="js/leaflet.js" /></script>
+  	<style>
+		body {
+			padding: 0;
+			margin: 0;
+		}
+		html, body, #map {
+			height: 100%;
+		}
+	</style>
+
 </head>
 <body style="background:#000000">
 
 
 <!-- HTML APP GOES HERE-->
+<div id="primaryContainer" class="primaryContainer clearfix">
+               <div id='continut' class='clearfix'>
+           <div id='discover' class='clearfix'>
+           </div>
+           <p id='mycollect'>
+           DISCOVER
+           </p>
+           <div id='descrierebox' class='clearfix'>
+               <p id='descriere'>
+               <span id='textspan'>Discover new places</span><br />
+               </p>
+           </div>
+<div id="map"></div>
+
+	<script>
+		var map = L.map('map');
+
+		L.tileLayer('http://{s}.tile.cloudmade.com/BC9A493B41014CAABB98F0471D759707/997/256/{z}/{x}/{y}.png', {
+			maxZoom: 18,
+			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery Â© <a href="http://cloudmade.com">CloudMade</a>'
+		}).addTo(map);
+
+		function onLocationFound(e) {
+			var radius = e.accuracy / 2;
+
+			L.marker(e.latlng).addTo(map)
+				.bindPopup("You are within " + radius + " meters from this point").openPopup();
+
+			L.circle(e.latlng, radius).addTo(map);
+		}
+
+		function onLocationError(e) {
+			alert(e.message);
+		}
+
+		map.on('locationfound', onLocationFound);
+		map.on('locationerror', onLocationError);
+
+		map.locate({setView: true, maxZoom: 16});
+	</script>
+
+
+           </div>
+</div>
 
 
 
