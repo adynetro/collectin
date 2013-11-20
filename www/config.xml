@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.connectwithromania.collectin" 
-		version="0.0.1" 
+		version="1.0.0" 
 		xmlns="http://www.w3.org/ns/widgets" 
 		xmlns:gap = "http://phonegap.com/ns/1.0">
 		
@@ -43,12 +43,16 @@
 	<gap:splash src="splash/bb/splash.png" gap:platform="blackberry" />
 	<gap:splash src="splash/winphone/splash.jpg" gap:platform="winphone" />
 	
-	<!-- Geolocation -->
+	<!-- Plugins -->
 	<gap:plugin name="org.apache.cordova.geolocation" />
+	<gap:plugin name="org.apache.cordova.dialogs" />
+	<gap:plugin name="org.apache.cordova.splashscreen" />
+	<gap:plugin name="org.apache.cordova.vibration" />
 	
 	<!--HTML Content--> 
     <content src="index.html" />
     <access origin="*" />
+    <preference name="phonegap-version" value="3.1.0" />
     <preference name="fullscreen" value="true" />
     <preference name="bacgroundColor" value="0x00000000" />
     <preference name="loadingDialog" value="Loading... ,Fetching new content" />

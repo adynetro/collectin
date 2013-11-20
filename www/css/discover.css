@@ -81,7 +81,9 @@ body {
     background-position: center center;
     background-repeat: no-repeat no-repeat;
 }
-
+#map { 
+height: 280px; 
+}
 
 @media only screen and (min-width: 235px) {
 
