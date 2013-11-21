@@ -68,7 +68,7 @@ body {
     padding-bottom: 5px;
 }
 #discover {
-    float: left;
+    float: none;
     height: 200px;
     margin-left: 0px;
     margin-top: 0px;
@@ -81,18 +81,17 @@ body {
     background-position: center center;
     background-repeat: no-repeat no-repeat;
 }
-}
 #harta {
     float: none;
-    height: 500px;
-    margin-left: auto;
+    height: 300px;
+    margin-left: 0px;
     margin-top: 0px;
     clear: both;
     width: 100%;
     margin-right: auto;
 }
 #map { 
-height: 280px; 
+height: 300px; 
 }
 
 @media only screen and (min-width: 235px) {
