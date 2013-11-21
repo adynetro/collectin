@@ -6,10 +6,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
 	  <link rel="stylesheet" href="css/boilerplate.css" type="text/css" />
 	  <link rel="stylesheet" href="css/discover.css" type="text/css" />
-	  <link rel="stylesheet" href="css/leaflet.css" type="text/css" />
 	  <script src="js/jquery-1.10.2.min.js" /></script>
-	  <script src="js/leaflet.js" /></script>
-  	<style>
+	  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css" />
+	  <script src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script>
+
+
 		#map {
 			height: 250px;
 		}
@@ -26,18 +27,21 @@
            DISCOVER
            </p>
            <div id='descrierebox' class='clearfix'>
+            <div id='descrierebox' class='clearfix'>
                <p id='descriere'>
-               <span id='textspan'>Discover new places</span><br />
+               Descopera locatii noi !
                </p>
-               </div>
-               <div id="map"></div>
+            </div>
+           
+           <div id="harta" class="clearfix">
+                               <div id="map"></div>
 
 	<script>
 		var map = L.map('map');
 
 		L.tileLayer('http://{s}.tile.cloudmade.com/BC9A493B41014CAABB98F0471D759707/997/256/{z}/{x}/{y}.png', {
 			maxZoom: 18,
-			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery Â© <a href="http://cloudmade.com">CloudMade</a>'
+			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>'
 		}).addTo(map);
 
 		function onLocationFound(e) {
@@ -58,8 +62,9 @@
 
 		map.locate({setView: true, maxZoom: 16});
 	</script>
-
            </div>
+              
+               </div>
 </div>
 
 <!--HTML APP ENDS HERE-->

@@ -81,6 +81,16 @@ body {
     background-position: center center;
     background-repeat: no-repeat no-repeat;
 }
+}
+#harta {
+    float: none;
+    height: 500px;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: both;
+    width: 100%;
+    margin-right: auto;
+}
 #map { 
 height: 280px; 
 }
