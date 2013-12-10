@@ -27,7 +27,7 @@
     margin-right: auto;
 }
 body {
-    color: rgb(0, 0, 0);
+    color:#000000;
 }
 #status {
     float: left;
