@@ -55,6 +55,5 @@
     <preference name="webviewbounce" value="true" />
     <preference name="orientation" value="portrait" />
     <preference name="target-device" value="handset" />
-    <preference name="ios-statusbarstyle" value="black-translucent" />
 </widget>
 
