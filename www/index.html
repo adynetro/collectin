@@ -17,6 +17,7 @@
            <img id='pearl' src='img/pearl.png' class='image' />
        </div>
   <div ng-view></div>
+</div>
   <script src="lib/angular/angular.js"></script>
   <script src="lib/angular/angular-route.js"></script>
   <script src="lib/angular/angular-animate.js"></script>
@@ -25,5 +26,13 @@
   <script src="js/controllers.js"></script>
   <script src="js/filters.js"></script>
   <script src="js/directives.js"></script>
+
+  <script type="text/javascript">
+	  if (navigator.userAgent.match(/(iPad.*|iPhone.*|iPod.*);.*CPU.*OS 7_\d/i)) {
+		  $("body").addClass("ios7");
+		  $("body").append('<div id="ios7statusbar" />');
+	  }
+  </script>
+
 </body>
 </html>
