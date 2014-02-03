@@ -1,13 +1,27 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.cordova.helloCordova" version="2.0.0" xmlns="http://www.w3.org/ns/widgets">
+<widget id="com.connectwithromania.collectin" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Hello Cordova</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
-    </author>
-    <content src="index.html" />
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="FadeSplashScreen" value="true" />
+    <preference name="FadeSplashScreenDuration" value=".25" />
+    <preference name="HideKeyboardFormAccessoryBar" value="false" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="KeyboardShrinksView" value="false" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="ShowSplashScreenSpinner" value="true" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="TopActivityIndicator" value="gray" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage" />
     </feature>
@@ -24,19 +38,40 @@
     <feature name="Vibration">
         <param name="ios-package" value="CDVVibration" />
     </feature>
+    <name>Collectin</name>
+    <description>
+        Collectin App
+    </description>
+    <author email="support@connectwithromania.com" href="http://connectwithromania.com">
+        Connect with Romania
+    </author>
+    <icon src="icon.png" />
+    <icon height="57" src="icons/ios/icon.png" width="57" />
+    <icon gap:platform="ios" height="72" src="icons/ios/icon-72.png" width="72" />
+    <icon height="114" src="icons/ios/icon_at_2x.png" width="114" />
+    <icon gap:density="ldpi" gap:platform="android" src="icons/android/ldpi.png" />
+    <icon gap:density="mdpi" gap:platform="android" src="icons/android/mdpi.png" />
+    <icon gap:density="hdpi" gap:platform="android" src="icons/android/hdpi.png" />
+    <icon gap:platform="winphone" src="icons/winphone/icon.png" />
+    <icon gap:platform="winphone" gap:role="background" src="icons/winphone/tileicon.png" />
+    <gap:splash src="splash.png" />
+    <gap:splash height="768" src="splash/ios/Default-Landscape.png" width="1024" />
+    <gap:splash height="1024" src="splash/ios/Default-Portrait.png" width="768" />
+    <gap:splash height="480" src="splash/ios/Default.png" width="320" />
+    <gap:splash height="960" src="splash/ios/Default_at_2x.png" width="640" />
+    <gap:splash gap:density="ldpi" gap:platform="android" height="480" src="splash/android/ldpi.png" width="320" />
+    <gap:splash gap:density="mdpi" gap:platform="android" height="960" src="splash/android/mdpi.png" width="640" />
+    <gap:splash gap:density="hdpi" gap:platform="android" height="1024" src="splash/android/hdpi.png" width="768" />
+    <gap:splash gap:platform="winphone" src="splash/winphone/splash.jpg" />
+    <gap:plugin name="org.apache.cordova.geolocation" />
+    <gap:plugin name="org.apache.cordova.dialogs" />
+    <gap:plugin name="org.apache.cordova.splashscreen" />
+    <gap:plugin name="org.apache.cordova.vibration" />
+    <gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="com.phonegap.plugin.statusbar" />
+    <plugin name="org.apache.cordova.facebook.Connect" value="FacebookConnectPlugin" />
+    <content src="index.html" />
     <access origin="*" />
-    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
-    <preference name="SuppressesIncrementalRendering" value="false" />
-    <preference name="UIWebViewBounce" value="true" />
-    <preference name="TopActivityIndicator" value="gray" />
-    <preference name="EnableLocation" value="false" />
-    <preference name="EnableViewportScale" value="false" />
-    <preference name="AutoHideSplashScreen" value="true" />
-    <preference name="ShowSplashScreenSpinner" value="true" />
-    <preference name="MediaPlaybackRequiresUserAction" value="false" />
-    <preference name="AllowInlineMediaPlayback" value="false" />
-    <preference name="OpenAllWhitelistURLsInWebView" value="false" />
-    <preference name="BackupWebStorage" value="cloud" />
     <preference name="phonegap-version" value="3.1.0" />
     <preference name="fullscreen" value="true" />
     <preference name="backgroundColor" value="0x00000000" />
