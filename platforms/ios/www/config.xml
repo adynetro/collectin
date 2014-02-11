@@ -44,7 +44,10 @@
 	<gap:plugin name="org.apache.cordova.splashscreen" />
 	<gap:plugin name="org.apache.cordova.vibration" />
 	<gap:plugin name="org.apache.cordova.device" />
-	<gap:plugin name="com.phonegap.plugin.statusbar" />
+	<gap:plugin name="com.phonegap.plugins.facebookconnect" >
+		<param name="APP_ID" value="409524849193600" />
+		<param name="APP_NAME" value="Collectin Mobile" />
+	</gap:plugin>
        	
 	<!--HTML Content--> 
     <content src="index.html" />
@@ -55,5 +58,8 @@
     <preference name="webviewbounce" value="true" />
     <preference name="orientation" value="portrait" />
     <preference name="target-device" value="handset" />
+    <feature name="org.apache.cordova.facebook.Connect">
+        <param name="ios-package" value="FacebookConnectPlugin" />
+    </feature>
 </widget>
 

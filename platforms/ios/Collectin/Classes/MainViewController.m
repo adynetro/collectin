@@ -63,7 +63,16 @@
 
 #pragma mark View lifecycle
 
-- (void)viewWillAppear:(BOOL)animated
+//- (void)viewWillAppear:(BOOL)animated
+//{
+//    // View defaults to full size.  If you want to customize the view's size, or its subviews (e.g. webView),
+//    // you can do so here.
+//
+//    [super viewWillAppear:animated];
+//}
+
+    
+    - (void)viewWillAppear:(BOOL)animated
     {
         // View defaults to full size.  If you want to customize the view's size, or its subviews (e.g. webView),
         // you can do so here.
@@ -76,8 +85,15 @@
         }
         [super viewWillAppear:animated];
     }
-
-- (void)viewDidLoad
+    
+    
+//- (void)viewDidLoad
+//{
+//    [super viewDidLoad];
+//    // Do any additional setup after loading the view from its nib.
+//}
+    
+    - (void)viewDidLoad
     {
         [super viewDidLoad];
         // Do any additional setup after loading the view from its nib.
@@ -85,7 +101,7 @@
         if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7) {
             CGRect viewBounds = [self.webView bounds];
             viewBounds.origin.y = 20;
-            viewBounds.size.height = viewBounds.size.height - 0;
+            viewBounds.size.height = viewBounds.size.height - 20;
             self.webView.frame = viewBounds;
         }
         self.view.backgroundColor = [UIColor blackColor];
