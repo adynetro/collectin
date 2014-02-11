@@ -80,7 +80,7 @@
         if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7) {
             CGRect viewBounds = [self.webView bounds];
             viewBounds.origin.y = 20;
-            viewBounds.size.height = viewBounds.size.height - 20;
+            viewBounds.size.height = viewBounds.size.height - 0;
             self.webView.frame = viewBounds;
         }
         [super viewWillAppear:animated];

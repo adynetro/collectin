@@ -41,6 +41,7 @@
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		BC12DB5E7EE84F8D94D2B1E9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 723F0A9CCD58432FB35568B7 /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		CA75FE4B18AA643A00A8CFEC /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA75FE4A18AA643A00A8CFEC /* FacebookSDK.framework */; };
+		CAA3100C18AA82BF00A86966 /* FacebookConnectPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA3100B18AA82BF00A86966 /* FacebookConnectPlugin.m */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		D5859FEFF6CB449CAEC237D0 /* CDVVibration.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAA2E6AA0124A9A9DBD3C0C /* CDVVibration.m */; };
 		DA8BE3E750414ED7970C38EE /* CDVNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B297D1514C4826984D1704 /* CDVNotification.m */; };
@@ -117,6 +118,8 @@
 		B5B6F542A1ED41D68BDEF4AB /* CDVSplashScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVSplashScreen.h; path = org.apache.cordova.splashscreen/CDVSplashScreen.h; sourceTree = "<group>"; };
 		B84F2BD8124341AFA52C8E54 /* CDVLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVLocation.h; path = org.apache.cordova.geolocation/CDVLocation.h; sourceTree = "<group>"; };
 		CA75FE4A18AA643A00A8CFEC /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		CAA3100A18AA82BF00A86966 /* FacebookConnectPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FacebookConnectPlugin.h; path = com.phonegap.plugins.facebookconnect/src/ios/FacebookConnectPlugin.h; sourceTree = "<group>"; };
+		CAA3100B18AA82BF00A86966 /* FacebookConnectPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FacebookConnectPlugin.m; path = com.phonegap.plugins.facebookconnect/src/ios/FacebookConnectPlugin.m; sourceTree = "<group>"; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = Collectin/config.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -242,6 +245,8 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				CAA3100A18AA82BF00A86966 /* FacebookConnectPlugin.h */,
+				CAA3100B18AA82BF00A86966 /* FacebookConnectPlugin.m */,
 				22B297D1514C4826984D1704 /* CDVNotification.m */,
 				8951C640A02948F9AA699BE3 /* CDVNotification.h */,
 				539EDA273B4243EF888744BF /* CDVLocation.m */,
@@ -438,6 +443,7 @@
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				DA8BE3E750414ED7970C38EE /* CDVNotification.m in Sources */,
 				E04AFF096EF44C79A3584C85 /* CDVLocation.m in Sources */,
+				CAA3100C18AA82BF00A86966 /* FacebookConnectPlugin.m in Sources */,
 				F3B7C1B434B14773938033BE /* CDVSplashScreen.m in Sources */,
 				D5859FEFF6CB449CAEC237D0 /* CDVVibration.m in Sources */,
 			);
