@@ -106,6 +106,7 @@
         }
         self.view.backgroundColor = [UIColor blackColor];
     }
+    
 -(UIStatusBarStyle)preferredStatusBarStyle{
     return UIStatusBarStyleLightContent;
 }

@@ -10,6 +10,9 @@ a:hover {
 a:active {
   text-decoration:none;
 }
+body {
+    color: rgb(0, 0, 0);
+}
 .primaryContainer {
     height: auto;
     margin-left: auto;
@@ -19,9 +22,6 @@ a:active {
     min-width: 0px;
     background-color: rgb(0, 0, 0);
     -webkit-user-select: none; 
-}
-body {
-    color: rgb(0, 0, 0);
 }
 
 #statusBar {
@@ -78,7 +78,7 @@ body {
     margin: -19px 1em 0 0;
     z-index: 100;
 }
-#nebula {
+.nebula {
     float: none;
     margin-left: auto;
     margin-top: 32px;
@@ -86,7 +86,7 @@ body {
     clear: none;
 
 }
-#location {
+.location {
     float: none;
     height: 120px;
     margin-left: auto;
@@ -101,7 +101,7 @@ body {
     background-position: 0% 0%;
     background-repeat: repeat no-repeat;
 }
-#myCollectIn {
+.myCollectIn {
     float: none;
     height: 120px;
     margin-left: auto;
@@ -116,7 +116,7 @@ body {
     background-position: 0% 0%;
     background-repeat: repeat no-repeat;
 }
-#discoverPlaces {
+.discoverPlaces {
     float: none;
     height: 120px;
     margin-left: auto;
@@ -132,7 +132,7 @@ body {
     background-position: 0% 0%;
     background-repeat: repeat no-repeat;
 }
-#treasureHunt {
+.treasureHunt {
     float: none;
     height: 120px;
     margin-left: auto;
@@ -147,7 +147,7 @@ body {
     background-position: 0% 0%;
     background-repeat: repeat no-repeat;
 }
-#games {
+.games {
     float: none;
     height: 120px;
     margin-left: auto;
@@ -162,7 +162,7 @@ body {
     background-position: 0% 0%;
     background-repeat: repeat no-repeat;
 }
-#usingCollectin {
+.usingCollectin {
     float: none;
     height: 120px;
     margin-left: auto;
@@ -177,7 +177,7 @@ body {
     background-position: 0% 0%;
     background-repeat: repeat no-repeat;
 }
-#menuText {
+.menuText {
     float: left;
     font-size: 1.2em;
     width: auto;
@@ -195,4 +195,59 @@ body {
     color: rgb(255, 255, 255);
     text-shadow: rgb(0, 0, 0) 0px 3px 3px;
 }
+.slide-left.ng-enter,
+.slide-left.ng-leave,
+.slide-right.ng-enter,
+.slide-right.ng-leave {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background: inherit;
+    -ms-transition: .25s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    transition:  .25s ease-in-out;
+}
 
+
+.slide-left.ng-enter {
+    z-index: 101;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+}
+
+.slide-left.ng-enter.ng-enter-active {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.slide-left.ng-leave {
+    z-index: 100;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.slide-left.ng-leave.ng-leave-active {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+
+.slide-right.ng-enter {
+    z-index: 100;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+
+.slide-right.ng-enter.ng-enter-active {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.slide-right.ng-leave {
+    z-index: 101;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.slide-right.ng-leave.ng-leave-active {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+}

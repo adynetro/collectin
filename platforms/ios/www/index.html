@@ -2,31 +2,32 @@
 <html lang="en" ng-app="myApp">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
   <title>Collectin</title>
   <link rel="stylesheet" href="css/boilerplate.css" />
   <link rel="stylesheet" href="css/collectin.css" />
-  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <script type="text/javascript" src="lib/angular/angular.js"></script>
+  <script type="text/javascript" src="lib/angular/angular-route.js"></script>
+  <script type="text/javascript" src="lib/angular/angular-animate.js"></script>
+  <script type="text/javascript" src="lib/angular/angular-touch.js"></script>
+  <script type="text/javascript" src="lib/angular/angular-resource.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  <script type="text/javascript" src="js/services.js"></script>
+  <script type="text/javascript" src="js/controllers.js"></script>
+  <script type="text/javascript" src="js/filters.js"></script>
+  <script type="text/javascript" src="js/directives.js"></script>
 </head>
-<body>
+
+
+<body ng-controller="Menu">
   <div id="primaryContainer" class="primaryContainer clearfix" >
-               <div id='statusBar' class='clearfix'>
-           <a href="#/menu"><img id='logo' src='img/logo.png' class='image'/></a>
+               <div id='statusBar'>
+           <a href="" ng-click="back()"><img id='logo' src='img/logo.png' class='image'/></a>
            <p id='pearlCount'>
            You have 440
            </p>
-           <img id='pearl' src='img/pearl.png' class='image' />
+           <img id='pearl' src='img/pearl.png' class='iamge'/>
        </div>
-  <div ng-view></div>
-</div>
-
-  <script src="lib/angular/angular.js"></script>
-  <script src="lib/angular/angular-route.js"></script>
-  <script src="lib/angular/angular-animate.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/services.js"></script>
-  <script src="js/controllers.js"></script>
-  <script src="js/filters.js"></script>
-  <script src="js/directives.js"></script>
-  <script src="phongap.js"></script>
+  <div ng-view ng-class="slide"></div>
 </body>
 </html>

@@ -2,21 +2,22 @@
 
 angular.module('myApp', [
   'ngRoute',
+  'ngTouch',
+  'ngAnimate',
   'myApp.filters',
   'myApp.services',
   'myApp.directives',
-  'myApp.controllers',
-  'ngAnimate'
+  'myApp.controllers'
 ]).
 
 config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/menu', {templateUrl: 'partials/menu.html', controller: 'Menu', depth:1});
-  $routeProvider.when('/locatie', {templateUrl: 'partials/locatie.html', controller: 'Locatie', depth:2});
-  $routeProvider.when('/mycollect', {templateUrl: 'partials/mycollect.html', controller: 'MyCollect', depth:2});
-  $routeProvider.when('/discover', {templateUrl: 'partials/discover.html', controller: 'Discover', depth:2});
-  $routeProvider.when('/treasure', {templateUrl: 'partials/treasure.html', controller: 'Treasure', depth:2});
-  $routeProvider.when('/games', {templateUrl: 'partials/games.html', controller: 'Games', depth:2});
-  $routeProvider.when('/collectin', {templateUrl: 'partials/collectin.html', controller: 'Collectin', depth:2});
+  $routeProvider.when('/menu', {templateUrl: 'partials/menu.html', controller: 'Menu'});
+  $routeProvider.when('/locatie', {templateUrl: 'partials/locatie.html', controller: 'Menu'});
+  $routeProvider.when('/mycollect', {templateUrl: 'partials/mycollect.html', controller: 'Menu'});
+  $routeProvider.when('/discover', {templateUrl: 'partials/discover.html', controller: 'Menu'});
+  $routeProvider.when('/treasure', {templateUrl: 'partials/treasure.html', controller: 'Menu'});
+  $routeProvider.when('/games', {templateUrl: 'partials/games.html', controller: 'Menu'});
+  $routeProvider.when('/collectin', {templateUrl: 'partials/collectin.html', controller: 'Menu'});
   $routeProvider.otherwise({redirectTo: '/menu'});
 }]);
 
