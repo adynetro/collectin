@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4165DFC9-7AC0-466F-9F7B-490FA31B1DD6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Collectin</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>552CF91C-E1E2-44AA-B752-5F937BDBAAFB</key>
+		<string>https://github.com/adynetro/collectin.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/Collectin.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>552CF91C-E1E2-44AA-B752-5F937BDBAAFB</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/adynetro/collectin.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>552CF91C-E1E2-44AA-B752-5F937BDBAAFB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>552CF91C-E1E2-44AA-B752-5F937BDBAAFB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>collectin</string>
+		</dict>
+	</array>
+</dict>
+</plist>

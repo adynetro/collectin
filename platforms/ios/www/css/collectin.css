@@ -185,7 +185,7 @@ body {
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    word-wrap: break-word;
+    word-wrap: word-wrap;
     margin-left: 0.5em;
     margin-top: 4.5em;
     clear: none;
@@ -194,6 +194,20 @@ body {
     text-transform: uppercase;
     color: rgb(255, 255, 255);
     text-shadow: rgb(0, 0, 0) 0px 3px 3px;
+}
+.paper {
+    float: left;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    color: black;
+    font-size: 1em;
+    font-family: helvetica;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    clear: none;
 }
 .slide-left.ng-enter,
 .slide-left.ng-leave,
