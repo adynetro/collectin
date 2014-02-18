@@ -67,7 +67,7 @@ body {
     font-family: helvetica;
     color: rgb(255, 255, 255);
     text-shadow: rgb(0, 0, 0) 0px 3px 3px;
-    z-index: 100;
+    z-index: 101;
 }
 #pearl {
     float: right;
@@ -76,7 +76,7 @@ body {
     clear: both;
     color: rgb(0, 0, 0);
     margin: -19px 1em 0 0;
-    z-index: 100;
+    z-index: 102;
 }
 .nebula {
     float: none;
@@ -223,7 +223,7 @@ body {
 
 
 .slide-left.ng-enter {
-    z-index: 101;
+    z-index: 99;
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
 }
@@ -234,7 +234,7 @@ body {
 }
 
 .slide-left.ng-leave {
-    z-index: 100;
+    z-index: 90;
     -webkit-transform: translateX(0);
     transform: translateX(0);
 }
@@ -245,7 +245,7 @@ body {
 }
 
 .slide-right.ng-enter {
-    z-index: 100;
+    z-index: 91;
     -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
 }
@@ -256,7 +256,7 @@ body {
 }
 
 .slide-right.ng-leave {
-    z-index: 101;
+    z-index: 92;
     -webkit-transform: translateX(0);
     transform: translateX(0);
 }
