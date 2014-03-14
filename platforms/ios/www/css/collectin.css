@@ -11,7 +11,7 @@ a:active {
   text-decoration:none;
 }
 body {
-    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
 }
 .primaryContainer {
     height: auto;
@@ -78,8 +78,16 @@ body {
     margin: -19px 1em 0 0;
     z-index: 102;
 }
+#screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    clear: both;
+    overflow: visible;
+}
 .nebula {
-    float: none;
     margin-left: auto;
     margin-top: 32px;
     width: 100%;
@@ -195,8 +203,22 @@ body {
     color: rgb(255, 255, 255);
     text-shadow: rgb(0, 0, 0) 0px 3px 3px;
 }
+.title {
+    float: none;
+    width: 100%;
+    background-color: rgb(86, 63, 109);
+    color: white;
+    font-family: Verdana;
+    font-size: 2em;
+    font-weight: 100;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0em;
+    clear: none;
+}
 .paper {
-    float: left;
+    float: both;
     width: 100%;
     height: auto;
     background-color: white;
