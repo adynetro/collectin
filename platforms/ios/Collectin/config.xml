@@ -57,7 +57,6 @@
     <gap:splash gap:density="mdpi" gap:platform="android" height="960" src="splash/android/mdpi.png" width="640" />
     <gap:splash gap:density="hdpi" gap:platform="android" height="1024" src="splash/android/hdpi.png" width="768" />
     <gap:splash gap:platform="winphone" src="splash/winphone/splash.jpg" />
-    <gap:plugin name="org.apache.cordova.geolocation" />
     <gap:plugin name="org.apache.cordova.dialogs" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
@@ -68,13 +67,17 @@
     </gap:plugin>
     <content src="index.html" />
     <access origin="*" />
-    <preference name="phonegap-version" value="3.1.0" />
+    <preference name="phonegap-version" value="3.4.0" />
     <preference name="fullscreen" value="true" />
     <preference name="backgroundColor" value="0x00000000" />
     <preference name="webviewbounce" value="true" />
     <preference name="orientation" value="portrait" />
     <preference name="target-device" value="handset" />
-    <feature name="org.apache.cordova.facebook.connect">
+    <feature name="org.apache.cordova.facebook.Connect">
         <param name="ios-package" value="FacebookConnectPlugin" />
     </feature>
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVInAppBrowser" />
+    </feature>
+    <access origin="https://oauth.io" />
 </widget>

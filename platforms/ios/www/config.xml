@@ -39,7 +39,7 @@
 	<gap:splash src="splash/winphone/splash.jpg" gap:platform="winphone" />
 	
 	<!-- Plugins -->
-	<gap:plugin name="org.apache.cordova.geolocation" />
+	<!-- <gap:plugin name="org.apache.cordova.geolocation" /> -->
 	<gap:plugin name="org.apache.cordova.dialogs" />
 	<gap:plugin name="org.apache.cordova.splashscreen" />
 	<gap:plugin name="org.apache.cordova.vibration" />
@@ -52,7 +52,7 @@
 	<!--HTML Content--> 
     <content src="index.html" />
     <access origin="*" />
-    <preference name="phonegap-version" value="3.1.0" />
+    <preference name="phonegap-version" value="3.4.0" />
     <preference name="fullscreen" value="true" />
     <preference name="backgroundColor" value="0x00000000" />
     <preference name="webviewbounce" value="true" />

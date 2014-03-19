@@ -10,6 +10,9 @@ a:hover {
 a:active {
   text-decoration:none;
 }
+body {
+    background-color: rgb(0, 0, 0);
+}
 .primaryContainer {
     height: auto;
     margin-left: auto;
@@ -20,17 +23,12 @@ a:active {
     background-color: rgb(0, 0, 0);
     -webkit-user-select: none; 
 }
-body {
-    color: rgb(0, 0, 0);
-}
-
 #statusBar {
     height: 32px;
     width: 100%;
     position: fixed;
-    box-shadow: rgb(0, 0, 0) 0px 3px 3px 0px;
     background: -webkit-linear-gradient(0deg,rgb(0,0,0) 0%,rgb(86,63,109) 100%);
-    z-index: 99;
+    z-index: 199;
 }
 #logo {
     float: left;
@@ -38,6 +36,10 @@ body {
     max-width: 100%;
     height: 1.5em;
     margin-left: 0px;
+    padding-left: 0.2em;
+    padding-top: 0.2em;
+    padding-right: 0.2em;
+    padding-bottom: 0.2em;
     clear: none;
     color: rgb(0, 0, 0);
     margin-right: 0px;
@@ -63,7 +65,7 @@ body {
     font-family: helvetica;
     color: rgb(255, 255, 255);
     text-shadow: rgb(0, 0, 0) 0px 3px 3px;
-    z-index: 100;
+    z-index: 101;
 }
 #pearl {
     float: right;
@@ -72,17 +74,31 @@ body {
     clear: both;
     color: rgb(0, 0, 0);
     margin: -19px 1em 0 0;
-    z-index: 100;
+    z-index: 102;
 }
-#nebula {
-    float: none;
+#screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    clear: both;
+    overflow: visible;
+}
+.nebula {
     margin-left: auto;
     margin-top: 32px;
     width: 100%;
     clear: none;
-
 }
-#location {
+.splashfb {
+    margin-left: auto;
+    margin-top: 30em;
+    width: 100%;
+    clear: none;
+    background-image: url("../img/");
+}
+.location {
     float: none;
     height: 120px;
     margin-left: auto;
@@ -97,7 +113,7 @@ body {
     background-position: 0% 0%;
     background-repeat: repeat no-repeat;
 }
-#myCollectIn {
+.myCollectIn {
     float: none;
     height: 120px;
     margin-left: auto;
@@ -112,7 +128,7 @@ body {
     background-position: 0% 0%;
     background-repeat: repeat no-repeat;
 }
-#discoverPlaces {
+.discoverPlaces {
     float: none;
     height: 120px;
     margin-left: auto;
@@ -128,7 +144,7 @@ body {
     background-position: 0% 0%;
     background-repeat: repeat no-repeat;
 }
-#treasureHunt {
+.treasureHunt {
     float: none;
     height: 120px;
     margin-left: auto;
@@ -143,7 +159,7 @@ body {
     background-position: 0% 0%;
     background-repeat: repeat no-repeat;
 }
-#games {
+.games {
     float: none;
     height: 120px;
     margin-left: auto;
@@ -158,7 +174,7 @@ body {
     background-position: 0% 0%;
     background-repeat: repeat no-repeat;
 }
-#usingCollectin {
+.usingCollectin {
     float: none;
     height: 120px;
     margin-left: auto;
@@ -173,7 +189,7 @@ body {
     background-position: 0% 0%;
     background-repeat: repeat no-repeat;
 }
-#menuText {
+.menuText {
     float: left;
     font-size: 1.2em;
     width: auto;
@@ -181,7 +197,7 @@ body {
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    word-wrap: break-word;
+    word-wrap: word-wrap;
     margin-left: 0.5em;
     margin-top: 4.5em;
     clear: none;
@@ -191,4 +207,130 @@ body {
     color: rgb(255, 255, 255);
     text-shadow: rgb(0, 0, 0) 0px 3px 3px;
 }
+.title {
+    float: both;
+    width: 100%;
+    background: -webkit-linear-gradient(0deg,rgb(0,0,0) 0%,rgb(86,63,109) 100%);
+    color: rgb(255, 255, 255);
+    font-family: helvetica;
+    font-size: 2em;
+    padding-top: 0.2em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    padding-bottom: 0.2em;
+    text-shadow: rgb(0, 0, 0) 0px 3px 3px;
+    clear: none;
+}
+.imgloc {
+        float: both;
+        width: 110%;
+        max-width: 100%;
+        clear: none;
+}
+.paper {
+    float: both;
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    clear: none;
+}
+.papertext {
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    font-family: helvetica;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+}
+.papernote {
+    color: rgb(0, 0, 0);
+    font-size: 1.3em;
+    font-family: helvetica;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+}
+.promo {
+    float: both;
+    width: 100%;
+    background-color: rgb(46, 23, 59);
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    font-family: helvetica;
+}
+.qr {
+    float: both;
+    width: 100%;
+    height: auto;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+/*#map_canvas {
+    width: 100%;
+    height: 500px;
+    background-color: #CCC;
+}*/
+.slide-left.ng-enter,
+.slide-left.ng-leave,
+.slide-right.ng-enter,
+.slide-right.ng-leave {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background: inherit;
+    -ms-transition: .25s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    transition:  .25s ease-in-out;
+}
 
+
+.slide-left.ng-enter {
+    z-index: 99;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+}
+
+.slide-left.ng-enter.ng-enter-active {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.slide-left.ng-leave {
+    z-index: 90;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.slide-left.ng-leave.ng-leave-active {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+
+.slide-right.ng-enter {
+    z-index: 91;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+
+.slide-right.ng-enter.ng-enter-active {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.slide-right.ng-leave {
+    z-index: 92;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.slide-right.ng-leave.ng-leave-active {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+}

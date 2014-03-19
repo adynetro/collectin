@@ -7,7 +7,8 @@ angular.module('myApp', [
   'myApp.filters',
   'myApp.services',
   'myApp.directives',
-  'myApp.controllers'
+  'myApp.controllers',
+  'google-maps',
 ]).
 
 config(['$routeProvider', function($routeProvider) {
@@ -20,5 +21,4 @@ config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/collectin', {templateUrl: 'partials/collectin.html', controller: 'Menu'});
   $routeProvider.otherwise({redirectTo: '/menu'});
 }]);
-
 

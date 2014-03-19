@@ -4,6 +4,16 @@
 
 angular.module('myApp.controllers', [])
   .controller('Menu', ['$scope', '$rootScope', '$window', '$location', function($scope,$rootScope,$window,$location) {
+
+
+    $scope.map = {
+      center: {
+        latitude: 45,
+        longitude: -73
+      },
+      zoom: 8
+    };
+
     $scope.slide = '';
     $rootScope.back = function() {
       $scope.slide = 'slide-right';
@@ -14,3 +24,4 @@ angular.module('myApp.controllers', [])
       $location.url(path);
     }
 }]);
+

@@ -1,2 +1,24 @@
 <div class='nebula'></div>
-<div class='discoverPlaces'></div>
+<div class='title'>Discover Places</div>
+
+<style>
+	.angular-google-map-container { 
+
+		min-height: 400px; 
+		height: 400px; 
+		max-height: 430px; 
+	}
+</style>
+
+<div class="angular-google-map-container">
+	<google-map center="map.center" zoom="map.zoom" draggable="true">
+
+	<marker 
+	coords=" { 'latitude': '44.199', 'longitude': '28.634' } "
+		icon=''
+		click=''
+		options=''
+		events=''>
+	</marker>
+	</google-map>
+</div>

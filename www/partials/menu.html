@@ -1,45 +1,46 @@
-       <div class='animated fadeIn'>
-        <div id='nebula'></div>
-       <a href="#/locatie">
-       <div id='location' class='clearfix'>
-           <p id='menuText'>
+ <div id='screen'>
+  <div class='nebula'></div>
+       <a ng-click = "go('/locatie')">
+       <div class='location' class='clearfix'>
+           <p class='menuText'>
            LOCATION
            </p>
        </div>
      </a>
-     <a href="#/mycollect">
-       <div id='myCollectIn' class='clearfix'>
-           <p id='menuText'>
+     <a ng-click = "go('/mycollect')">
+       <div class='myCollectIn' class='clearfix'>
+           <p class='menuText'>
            MY COLLECTIN
            </p>
        </div>
      </a>
-     <a href="#/discover">
-       <div id='discoverPlaces' class='clearfix'>
-           <p id='menuText'>
+     <a ng-click = "go('/discover')">
+       <div class='discoverPlaces' class='clearfix'>
+           <p class='menuText'>
            DISCOVER PLACES
            </p>
        </div>
      </a>
-     <a href="#/treasure">
-       <div id='treasureHunt' class='clearfix'>
-           <p id='menuText'>
+     <a ng-click = "go('/treasure')">
+       <div class='treasureHunt' class='clearfix'>
+           <p class='menuText'>
            TREASURE HUNT
            </p>
        </div>
      </a>
-     <a href="#/games">
-       <div id='games' class='clearfix'>
-           <p id='menuText'>
+    <!--  <a href="#/games">
+       <div class='games' class='clearfix'>
+           <p class='menuText'>
            GAMES
            </p>
        </div>
-     </a>
-     <a href="#/collectin">
-       <div id='usingCollectin' class='clearfix'>
-           <p id='menuText'>
+     </a> -->
+     <a ng-click = "go('/collectin')">
+       <div class='usingCollectin' class='clearfix'>
+           <p class='menuText'>
            USING COLLECTIN
            </p>
        </div>
      </a>
    </div>
+  

@@ -2,25 +2,26 @@
 
 /* Controllers */
 
-angular.module('myApp.controllers', []).
-  controller('Menu', [function() {
+angular.module('myApp.controllers', [])
+  .controller('Menu', ['$scope', '$rootScope', '$window', '$location', function($scope,$rootScope,$window,$location) {
 
-  // }])
-  // .controller('Locatie', [function() {
 
-  // }])
-  // .controller('MyCollect', [function() {
+    $scope.map = {
+      center: {
+        latitude: 45,
+        longitude: -73
+      },
+      zoom: 8
+    };
 
-  // }])
-  // .controller('Discover', [function() {
-
-  // }])
-  // .controller('Treasure', [function() {
-
-  // }])
-  // .controller('Games', [function() {
-
-  // }])
-  // .controller('Collectin', [function() {
-  
+    $scope.slide = '';
+    $rootScope.back = function() {
+      $scope.slide = 'slide-right';
+      $window.history.back();
+    }
+    $rootScope.go = function(path) {
+      $scope.slide = 'slide-left';
+      $location.url(path);
+    }
 }]);
+
