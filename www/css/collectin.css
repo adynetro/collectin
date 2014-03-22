@@ -13,6 +13,9 @@ a:active {
 body {
     background-color: rgb(0, 0, 0);
 }
+body.connected .show_when_not_connected {
+ display: none;
+}
 .primaryContainer {
     height: auto;
     margin-left: auto;

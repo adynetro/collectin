@@ -13,6 +13,9 @@ a:active {
 body {
     background-color: rgb(0, 0, 0);
 }
+body.connected .show_when_not_connected {
+ display: none;
+}
 .primaryContainer {
     height: auto;
     margin-left: auto;
@@ -90,7 +93,13 @@ body {
     margin-top: 32px;
     width: 100%;
     clear: none;
-
+}
+.splashfb {
+    margin-left: auto;
+    margin-top: 30em;
+    width: 100%;
+    clear: none;
+    background-image: url("../img/");
 }
 .location {
     float: none;

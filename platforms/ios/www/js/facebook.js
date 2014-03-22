@@ -16,6 +16,7 @@ window.fbAsyncInit = function() {
 
 		if (response.authResponse) {
 			//user is already logged in and connected
+			window.location = "/main.html";
 			FB.api('/me', function(info) {
 				login(response, info);
 			});
@@ -27,7 +28,7 @@ window.fbAsyncInit = function() {
 			};
 		} else {
 			//user is not connected to your app or logged out
-			button.innerHTML = 'Login';
+			button.innerHTML = 'Facebook Login';
 			button.onclick = function() {
 				showLoader(true);
 				FB.login(function(response) {
