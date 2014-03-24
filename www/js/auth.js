@@ -99,7 +99,7 @@ function checkUserPermissions(permissionToCheck) {
 
 //Prompt the user to login and ask for the 'email' permission
 function promptLogin() {
-  FB.login(null, {scope: 'email'});
+  FB.login(null, {scope: 'basic_info, email, user_birthday, user_location, age_range, user_likes, user_hometown' });
 }
 
 //This will prompt the user to grant you acess to a given permission

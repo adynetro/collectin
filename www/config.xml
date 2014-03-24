@@ -45,8 +45,8 @@
 	<gap:plugin name="org.apache.cordova.vibration" />
 	<gap:plugin name="org.apache.cordova.device" />
 	<gap:plugin name="com.phonegap.plugins.facebookconnect" >
-		<param name="APP_ID" value="409524849193600" />
-		<param name="APP_NAME" value="Collectin Mobile" />
+		<param name="APP_ID" value="136104523247691" />
+		<param name="APP_NAME" value="CollectIn" />
 	</gap:plugin>
        	
 	<!--HTML Content--> 

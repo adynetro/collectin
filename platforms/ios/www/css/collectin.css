@@ -16,6 +16,18 @@ body {
 body.connected .show_when_not_connected {
  display: none;
 }
+
+body.connected .show_when_connected {
+ display: block;
+}
+
+body.not_connected .show_when_not_connected {
+ display: block;
+}
+
+body.not_connected .show_when_connected {
+ display: none;
+}
 .primaryContainer {
     height: auto;
     margin-left: auto;
@@ -93,13 +105,6 @@ body.connected .show_when_not_connected {
     margin-top: 32px;
     width: 100%;
     clear: none;
-}
-.splashfb {
-    margin-left: auto;
-    margin-top: 30em;
-    width: 100%;
-    clear: none;
-    background-image: url("../img/");
 }
 .location {
     float: none;
@@ -276,11 +281,11 @@ body.connected .show_when_not_connected {
     padding-right: 10%;
     padding-bottom: 10%;
 }
-/*#map_canvas {
+#map_canvas {
     width: 100%;
     height: 500px;
     background-color: #CCC;
-}*/
+}
 .slide-left.ng-enter,
 .slide-left.ng-leave,
 .slide-right.ng-enter,

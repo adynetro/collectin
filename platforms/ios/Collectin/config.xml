@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.connectwithromania.collectin" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Hello Cordova</name>
+    <name>Collectin</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+     Collectin mobile App
     </description>
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="BackupWebStorage" value="cloud" />
@@ -35,7 +35,6 @@
     <feature name="InAppBrowser">
         <param name="ios-package" value="CDVInAppBrowser" />
     </feature>
-    <access origin="https://oauth.io" />
     <name>Collectin</name>
     <description>
         Collectin App
@@ -66,8 +65,8 @@
     <gap:plugin name="org.apache.cordova.vibration" />
     <gap:plugin name="org.apache.cordova.device" />
     <gap:plugin name="com.phonegap.plugins.facebookconnect">
-        <param name="APP_ID" value="409524849193600" />
-        <param name="APP_NAME" value="Collectin Mobile" />
+        <param name="APP_ID" value="136104523247691" />
+        <param name="APP_NAME" value="CollectIn" />
     </gap:plugin>
     <content src="index.html" />
     <access origin="*" />
